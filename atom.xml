@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://widdershin.github.io/atom.xml" rel="self"/>
-  <link href="http://widdershin.github.io/"/>
-  <updated>2014-05-14T17:06:13+12:00</updated>
-  <id>http://widdershin.github.io/</id>
+  <title><![CDATA[Widdershin's Blog]]></title>
+  <link href="http://widdersh.in/atom.xml" rel="self"/>
+  <link href="http://widdersh.in/"/>
+  <updated>2014-05-14T17:13:43+12:00</updated>
+  <id>http://widdersh.in/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Nick Johnstone]]></name>
+    <email><![CDATA[ncwjohnstone@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - Week 1]]></title>
+    <link href="http://widdersh.in/dev-academy-week-1/"/>
+    <updated>2014-05-14T17:08:52+12:00</updated>
+    <id>http://widdersh.in/dev-academy-week-1</id>
+    <content type="html"><![CDATA[<p>Let me set the scene. It&rsquo;s the second day at Enspiral Dev Academy, and I&rsquo;m lounging in the &lsquo;Ctrl&rsquo; space. It&rsquo;s 8pm, and I&rsquo;ve been here since 8.45am. I&rsquo;ll try to give you an introduction to what life has been like at EDA so far.</p>
+
+<p><img src="http://i.imgur.com/fg6OXci.jpg" alt="the view from the alt room" /></p>
+
+<p>Dev Academy is the first ever coding bootcamp in New Zealand, and this is the first time the program has been run. Based off of San Francisco&rsquo;s Dev Bootcamp program, Dev Academy tries to take people at all programming skill levels, and help them learn as much as possible about webdev in 9 weeks. It&rsquo;s an ambitious undertaking, but I think the graduates might speak for themselves. We&rsquo;ll see.</p>
+
+<p>So far in the last two days we&rsquo;ve covered a myriad of material ranging from search algorithms and recursion to a &ldquo;dive deep&rdquo; session about sexism and inequality. EDA has a focus on a well rounded education, and is devoting a good amount of time to what they call Engineering Empathy. That&rsquo;s a stream that focuses on the emotional intelligence side of things. If you&rsquo;re interested in that (and you should be), I would suggest checking out <a href="http://recode.net/2014/04/30/engineering-empathy-tears-and-fears-at-dev-bootcamp/">Karim Bishay&rsquo;s intro video</a> on the subject.</p>
+
+<p>I&rsquo;ve been programming for around 4 years now, maybe 1.5 seriously, and I&rsquo;m one of the more experienced members of the cohort. Most of my fellow boots (meaning cohort members, a term borrowed from Dev Bootcamp) hadn&rsquo;t even touched programming before the introductory phase.</p>
+
+<p>It&rsquo;s astounding how quickly everyone is picking up the material. Dev Academy has a huge emphasis on pair programming and TDD, and the benefits show. We&rsquo;re rapidly plowing through the material that a first year computer science course covers, and nobody is missing a beat.</p>
+
+<p>The hours might seem like insanity (yesterday was 11 hours for me, today almost 12), and I thought so too before I arrived. I swore that I wouldn&rsquo;t be doing anything more than a 10 hour day, but the time flies when you&rsquo;re hard at work solving interesting problems with interesting people. There&rsquo;s no obligation to stay past 8 or 9 hours, but the people here are passionate about their learning, and the course material is interesting enough that both nights I&rsquo;ve looked up only to find it dark and past 7 without noticing.</p>
+
+<p>It&rsquo;s not all been frantic coding though. We&rsquo;re taking part in bi-weekly yoga sessions, run by Alanna from Enspiral. I definitely enjoyed our first session today, it&rsquo;s a really good way to take a break and let your mind and body relax.</p>
+
+<p>So far anyway, Dev Academy has met and surpassed my expectations. The space is amazing, the people inspiring and the staff supportive and experienced. All I can say is that I can&rsquo;t wait for day 3.</p>
+
+<p>More to come&hellip;</p>
+]]></content>
+  </entry>
   
 </feed>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://widdershin.github.io/sitemap.xml 
+Sitemap: http://widdersh.in/sitemap.xml 
