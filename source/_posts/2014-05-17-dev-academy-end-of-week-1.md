@@ -45,12 +45,12 @@ I also really enjoyed doing the Sudoku solving challenge. I was working with And
 
 Sometime around 9pm: I head home for the day, and chill out and watch some TV and do some knitting. It sounds like a crazy long day, but the time has been flying past. I go home feeling tired and satisfied. If this ends up being unsustainable, I'll probably just cut back. We'll see, I guess.
 
-![One the views from EDA](http://i.imgur.com/nnXlKsC.jpg)
-*One the views from EDA*
+![One of the views from EDA](http://i.imgur.com/nnXlKsC.jpg)
+*One of the views from EDA*
 
 Well, if you've made it this far, congratulations. I certainly didn't intend to write such a giant wall of text, but there's so much to talk about. I've just got one last highlight from the last week I want to share.
 
-I received a Reddit private message after submitting my first post there. The person who messaged me kindly gave me permission to repost our conversation here, which I wanted to do because it answers a questions I've been hearing a lot.
+I received a Reddit private message after submitting my first post there. The person who messaged me kindly gave me permission to repost our conversation here, which I wanted to do because it answers a question I've been hearing a lot.
 
 
 >(Anon Redditor)  
