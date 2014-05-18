@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Widdershin's Blog]]></title>
+  <link href="http://widdersh.in/atom.xml" rel="self"/>
+  <link href="http://widdersh.in/"/>
+  <updated>2014-05-17T21:56:23+12:00</updated>
+  <id>http://widdersh.in/</id>
+  <author>
+    <name><![CDATA[Nick Johnstone]]></name>
+    <email><![CDATA[ncwjohnstone@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - End of Week 1]]></title>
+    <link href="http://widdersh.in/dev-academy-end-of-week-1/"/>
+    <updated>2014-05-17T21:33:52+12:00</updated>
+    <id>http://widdersh.in/dev-academy-end-of-week-1</id>
+    <content type="html"><![CDATA[<p><em>If you haven&rsquo;t already, it might be worth checking out my <a href="http://widdersh.in/dev-academy-week-1/">first post about Dev Academy</a></em></p>
+
+<p>Well, it&rsquo;s the end of my first week at Enspiral Dev Academy. It&rsquo;s been a huge week, both in time and what we&rsquo;ve been doing.</p>
+
+<p><img src="http://i.imgur.com/vg0m636.jpg" alt="One of our fearless leaders, Rohan Wakefield" />
+<em>One of our fearless leaders, Rohan Wakefield</em></p>
+
+<p>To give you a better idea of what the EDA experience is like, I&rsquo;ll run you through what a typical day at EDA has been like so far.</p>
+
+<p>8.45am: Arrive and check in with my accountability group. This sounds a lot scarier then it actually is. Your accountability group is basically 2-3 other people who you check in with daily to see how you&rsquo;re all going (and to make sure you&rsquo;re all there).</p>
+
+<p>9am: We all head into the lecture room and start the day with some notices, then get stuck in with an Engineering Empathy session. So far we&rsquo;ve mostly been doing looping sessions, which are a really interesting exercise. Everybody pairs up, and is given a question like &ldquo;What is a time you were discriminated against and how did that make you feel?&rdquo;. You then talk to your partner about that for two minutes, while they listen intently. Once the two minutes is up, your partner then repeats back what they heard and what they think you were saying. Then you swap roles and repeat the process.</p>
+
+<p>It&rsquo;s a fascinating exercise, and I found the discrimination one particularly interesting, because as a straight white middle class male, it&rsquo;s not often that I&rsquo;m discriminated against because of my background. I was struggling to think of an example, but I ultimately ended up talking about how I never really felt like I fit into NZQA (New Zealand&rsquo;s high school qualification system). It was really hard to have so much pressure to fit into a system that I never really felt was a good judge of my learning, especially from my family and friends. It was a much more emotional experience than I had thought and I felt like my partners and I really connected.</p>
+
+<p>We also repeated the exercise another day, with a similar question, but this time about a time when you felt privileged. I spoke about how I felt very privileged that my Mum had chosen to pay for my Dev Academy tuition. It was such an amazing thing for me because the money aspect was really worrying me leading up to Dev Academy, and to get a call from my Mum saying she would fund me made me feel like she really believed in me.</p>
+
+<p>As part of EE, we&rsquo;ve also been doing journalling, and another very cool exercise where you had to pair with the person in the room you knew the least, and try and guess things about them like their favourite movie, favourite music and biggest fear, just from what you knew about them so far. That exercise was interesting because pretty much everyone&rsquo;s assumptions were drastically wrong. It feels weird as well, because it plays on the stereotypes and labels you&rsquo;ve put on people, and it demonstrates that quite well.</p>
+
+<p>~9.30am: The day&rsquo;s first lecture begins. To me, lecture is almost the wrong word for it, because that screams having a teacher at the front of the classroom telling you what is what. The lectures we have are far more discussion based, and I really appreciate that. Some of the stuff we&rsquo;ve covered this week has included general debugging strategies, sorting algorithms, source control and more. Most (all) of the content we&rsquo;ve covered in the lectures has been old hat to me so far, so I&rsquo;m very keen for when we get into more advanced topics.</p>
+
+<p>10am: We get cracking on the day&rsquo;s challenges. We were pair programming every day except for Wednesday, which was an optional solo day. The challenges are pretty cool. So far they&rsquo;ve been toy problems to teach problem solving and general algorithm stuff. Once again mostly old hat to me, but it&rsquo;s been very interesting working with people who have a different perspective on programming and problem solving.</p>
+
+<p>Some of the cooler challenges we&rsquo;ve had this week have been making a Boggle Board, and solving Sudoku. Doing the Boggle Board challenge was great, as I was working with my old friend and flatmate Taylor, who is a more experienced programmer than I am. As a result, we got to blitz through it and work on some of the extra credit stuff (like writing an algorithm to check if a word is on the board recursively).</p>
+
+<p>I also really enjoyed doing the Sudoku solving challenge. I was working with Andrew, who is new to programming but has a really extensive maths background. We ended up writing debug code to display the board and decision making for inserting numbers, which turned out to be a really effective way to see what was going wrong in the program.</p>
+
+<p>12pm: Lunchtime. Most people end up staying in past 12pm (to the point where announcements that it has been lunchtime for 45 minutes fall on deaf ears), but I&rsquo;m always keen to get out and get something to eat. Wellington has an amazing variety of excellent food, and I&rsquo;m slowly working my way through all of it. Fan favourites so far have been Sweet Mothers on Courtney place and Viva La Mexico in Leftbank. I am so going to get fat before the course is over.</p>
+
+<p>2pm: Everyone heads back into the &lsquo;delete&rsquo; space (the lecture room) for our afternoon lectures. This week we covered Big O notation (a way to describe algorithm performance), data structures and basic assertions. The most interesting day for me was Friday, when instead of a lecture, we broke up into groups of 6 or so (including a teacher) and had a weekly check-in. Each person has 2 minutes of time to talk about their week. This is cool because you can choose to talk for the whole two minutes, but if you don&rsquo;t the group just sits in silence. I like that because it means you have no excuse not to talk if you want to. It was interesting hearing about the perspective of the other people in my group. Dev Academy can be a hard experience, and it&rsquo;s cool to be able to share how you&rsquo;re feeling in a private space.</p>
+
+<p>2.30pm: Back to the day&rsquo;s challenges, with your pair from the morning. We generally have far more work to do in a day then we can, but the staff have repeatedly emphasized that it&rsquo;s about learning, not completionism. I think that&rsquo;s a great approach, because it means everyone can work at their own pace, and there&rsquo;s no pressure to get through challenges just because they&rsquo;re there.</p>
+
+<p>6pm: We have our end of day check-in. There&rsquo;s generally a few more notices, and then we&rsquo;ll go around the circle answering a question like &ldquo;What was the hardest thing you did today?&rdquo; or &ldquo;What was the most important thing you learned today?&rdquo;. This is another cool opportunity to share and see where everyone is at.</p>
+
+<p>6.20pm: Back to challenges! At this point there&rsquo;s no obligation to stick around, but the doors don&rsquo;t shut until 2am. I&rsquo;ve generally been working until 7 or 8pm, depending on how my pair is feeling or how much I care about finishing what we were doing. After that, I&rsquo;ve usually been hanging out with anyone around, or helping people if they need it.</p>
+
+<p>Sometime around 9pm: I head home for the day, and chill out and watch some TV and do some knitting. It sounds like a crazy long day, but the time has been flying past. I go home feeling tired and satisfied. If this ends up being unsustainable, I&rsquo;ll probably just cut back. We&rsquo;ll see, I guess.</p>
+
+<p><img src="http://i.imgur.com/nnXlKsC.jpg" alt="One the views from EDA" />
+<em>One the views from EDA</em></p>
+
+<p>Well, if you&rsquo;ve made it this far, congratulations. I certainly didn&rsquo;t intend to write such a giant wall of text, but there&rsquo;s so much to talk about. I&rsquo;ve just got one last highlight from the last week I want to share.</p>
+
+<p>I received a Reddit private message after submitting my first post there. The person who messaged me kindly gave me permission to repost our conversation here, which I wanted to do because it answers a questions I&rsquo;ve been hearing a lot.</p>
+
+<blockquote><p>(Anon Redditor)<br/>
+Hey, the Dev Academy seems like a cool idea but I am wondering why you would take part when you already have experience and the tuition seems pretty steep?</p>
+
+<p>(Me)<br/>
+Hey mate,</p>
+
+<p>I&rsquo;m taking part for a number of reasons. While I had a fair bit of experience, my personal programming has always been shoe-horned around the rest of my life, work and etc.</p>
+
+<p>I view Dev Academy as a way to focus and rapidly accelerate my learning. It&rsquo;s really cool being in a space where we&rsquo;re fully focused on learning (especially modern technologies).</p>
+
+<p>Another big reason is that I was in a boring as hell job, and Dev Academy seemed like a great change of pace.</p>
+
+<p>The last aspect that really excited me about Dev Academy was the emotional intelligence side of things. I highly recommend you check out the video I linked from my post. It explains it far better than I can, but what it really boiled down to was that the thing in my life that I had the most trouble controlling and accepting was my emotions, and the premise that I could start learning tools to do that blew my mind.</p>
+
+<p>tl;dr: love learning, love programming, love making stuff, EDA is good for all of that.</p>
+
+<p>(Anon Redditor)<br/>
+Hey man, That is actually really cool! I took the time and watched the whole video. It all seems very interesting and if I had a chance to go to school again that would definitely be a possibility. The reason for the question is I thought you were coming from being a full-time programmer with prior schooling. So I wondered why you would go to a from the ground up training course. But the way it sounds the program really builds a lot more then your coding skills. I will pay attention to your blog as I may possibly be interested in something familiar in the future. Keep up the hard work and hopefully it can change your life in many ways!</p></blockquote>
+
+<p>The video I was referencing was <a href="http://vimeo.com/76762772">Karim Bishay&rsquo;s intro to Engineering Empathy</a>. Highly recommended watch if you haven&rsquo;t already.</p>
+
+<p>I found this to be a really uplifting interaction. I thought it was awesome that he took the time to watch the video and responded so positively. It made me feel good.</p>
+
+<p>There are a few other things I meant to write about in this post, like concentration and breakout sessions, but I&rsquo;ve already subjected my readers to quite a lot, so I think I&rsquo;ll save those for some other post.</p>
+
+<p>Until next time&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - Week 1]]></title>
+    <link href="http://widdersh.in/dev-academy-week-1/"/>
+    <updated>2014-05-14T17:08:52+12:00</updated>
+    <id>http://widdersh.in/dev-academy-week-1</id>
+    <content type="html"><![CDATA[<p>Let me set the scene. It&rsquo;s the second day at Enspiral Dev Academy, and I&rsquo;m lounging in the &lsquo;Ctrl&rsquo; space. It&rsquo;s 8pm, and I&rsquo;ve been here since 8.45am. I&rsquo;ll try to give you an introduction to what life has been like at EDA so far.</p>
+
+<p><img src="http://i.imgur.com/fg6OXci.jpg" alt="the view from the alt room" /></p>
+
+<p>Dev Academy is the first ever coding bootcamp in New Zealand, and this is the first time the program has been run. Based off of San Francisco&rsquo;s Dev Bootcamp program, Dev Academy tries to take people at all programming skill levels, and help them learn as much as possible about webdev in 9 weeks. It&rsquo;s an ambitious undertaking, but I think the graduates might speak for themselves. We&rsquo;ll see.</p>
+
+<p>So far in the last two days we&rsquo;ve covered a myriad of material ranging from search algorithms and recursion to a &ldquo;dive deep&rdquo; session about sexism and inequality. EDA has a focus on a well rounded education, and is devoting a good amount of time to what they call Engineering Empathy. That&rsquo;s a stream that focuses on the emotional intelligence side of things. If you&rsquo;re interested in that (and you should be), I would suggest checking out <a href="http://recode.net/2014/04/30/engineering-empathy-tears-and-fears-at-dev-bootcamp/">Karim Bishay&rsquo;s intro video</a> on the subject.</p>
+
+<p>I&rsquo;ve been programming for around 4 years now, maybe 1.5 seriously, and I&rsquo;m one of the more experienced members of the cohort. Most of my fellow boots (meaning cohort members, a term borrowed from Dev Bootcamp) hadn&rsquo;t even touched programming before the introductory phase.</p>
+
+<p>It&rsquo;s astounding how quickly everyone is picking up the material. Dev Academy has a huge emphasis on pair programming and TDD, and the benefits show. We&rsquo;re rapidly plowing through the material that a first year computer science course covers, and nobody is missing a beat.</p>
+
+<p>The hours might seem like insanity (yesterday was 11 hours for me, today almost 12), and I thought so too before I arrived. I swore that I wouldn&rsquo;t be doing anything more than a 10 hour day, but the time flies when you&rsquo;re hard at work solving interesting problems with interesting people. There&rsquo;s no obligation to stay past 8 or 9 hours, but the people here are passionate about their learning, and the course material is interesting enough that both nights I&rsquo;ve looked up only to find it dark and past 7 without noticing.</p>
+
+<p>It&rsquo;s not all been frantic coding though. We&rsquo;re taking part in bi-weekly yoga sessions, run by Alanna from Enspiral. I definitely enjoyed our first session today, it&rsquo;s a really good way to take a break and let your mind and body relax.</p>
+
+<p>So far anyway, Dev Academy has met and surpassed my expectations. The space is amazing, the people inspiring and the staff supportive and experienced. All I can say is that I can&rsquo;t wait for day 3.</p>
+
+<p>More to come&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>
