@@ -4,7 +4,7 @@
   <title><![CDATA[Widdershin's Blog]]></title>
   <link href="http://widdersh.in/atom.xml" rel="self"/>
   <link href="http://widdersh.in/"/>
-  <updated>2014-06-11T10:32:49+12:00</updated>
+  <updated>2014-07-04T23:49:49+12:00</updated>
   <id>http://widdersh.in/</id>
   <author>
     <name><![CDATA[Nick Johnstone]]></name>
@@ -12,6 +12,108 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - Week 5 Through 8: Subtitle Undefined]]></title>
+    <link href="http://widdersh.in/dev-academy-week-5-through-8-subtitle-undefined/"/>
+    <updated>2014-07-04T23:45:00+12:00</updated>
+    <id>http://widdersh.in/dev-academy-week-5-through-8-subtitle-undefined</id>
+    <content type="html"><![CDATA[<p>There was a certain logistical problem I never really considered when I decided I was going to write weekly Dev Academy blog posts. As Dev Academy goes on, the amount of things going on increases. This means that there is not only more to write about, but also less time to write about it. To maybe combat that issue, I&rsquo;ve decided to try a little something different this time. Forget chronology, we&rsquo;re gonna check out some highlights. Less is more.</p>
+
+<p>For the record, I&rsquo;m sitting on my couch writing this on the Sunday night at the end of Week 7 of Dev Academy. As of tomorrow, two weeks remain until graduation. Feels a bit mad.</p>
+
+<p><strong>Learning comes first</strong>, both at Dev Academy and in this post. This is a maxim that has been drilled into us at Dev Academy. If the curriculum isn&rsquo;t working for you, throw it out. If there&rsquo;s something better you could be doing for your learning, do that instead.</p>
+
+<p>I love this philosophy. I&rsquo;ve found I work best in an environment where I can create my own structure. As we&rsquo;ve moved into Phase 3 (the phase where we&rsquo;re treated more as developers, and less as students) we have more of an increased freedom to choose what we do. The first two phases of the course highly emphasized pairing (Pair Programming, two developers working together on the same computer on the same problem). Phase three is now solo optional all the time. I find that independent programming and then pairing on hard problems is a better way to work anyway.</p>
+
+<p>I appreciate the ability to direct my learning a bit more. I&rsquo;ve been hard at work rewriting my website <a href="http://www.nzskatesearch.com/">NZ Skate Search</a> in Ruby on Rails (a web framework that is the emphasis of the Ruby stream at Dev Academy). I originally wrote it in Python with Flask, but it was a bit of a hack job and had no tests. I&rsquo;ve been working on writing the new version in the best way I can. I&rsquo;m using heavy test driven development and emphasizing best practice. It&rsquo;s nice to be able to take this time to work on my craftsmanship.</p>
+
+<p>That project is by no means strictly within the scope of the curriculum, but since I&rsquo;m hitting all of my learning objectives, that&rsquo;s what counts. In the biggest team project yet (whole cohort), we were assigned tasks and roles tailored entirely around our learning objectives.</p>
+
+<p>Sometimes the set work clashes with my ability to best learn. The curriculum licensed from Dev Bootcamp San Francisco isn&rsquo;t as up to scratch as was expected. This is not really a problem, as we (as a school) can steer ourselves. Samson, the teacher for the Ruby stream, consults us every morning as to what lectures or breakout sessions we would like today (if any). These are mostly optional, so we have effectively been left to our own devices.</p>
+
+<p>I have to say that this has enabled some of the best learning I&rsquo;ve seen so far this course. In the last week, Kendall and Andrew created an <a href="https://github.com/kendallflutey/rspec-controller-testing">open source template</a> for testing website controllers in Ruby. Genevieve and Richard have been working on a website to help organize code tips and breakout sesssions. Everyone is up to different stuff, and I think that&rsquo;s really cool.</p>
+
+<p><strong>Working 75+ hours a week is rough</strong>, no matter who you are. This is on the lesser side of some of what my fellow cohorts members have been hitting, so credit to them.</p>
+
+<p>I have been pretty tired for the last 3 weeks. Working so much every week gets to you. It makes it harder to get out of bed in the morning, and then to pay attention when I get to course. I&rsquo;ve been trying to eat well (-ish) and get enough sleep, but 7.5 hours a night seems to be draining me.</p>
+
+<p>I find Yoga to be an excellent way to unwind. We&rsquo;ve had it twice a week since the start of the course. It&rsquo;s optional, and I think only around 5 of us out of 13 still partake. I often find I have quite a sore back, and Yoga really helps with that. I appreciate that it&rsquo;s a nice midpoint between meditation and exercise. It helps me to relax both my body and my mind (as cheesy as that might sound). I definitely want to keep up with it after EDA.</p>
+
+<p>I also try and make some time for mindfulness. Although the Engineering Empathy curriculum finished at the end of Phase 2, Joshua, a teacher, still offers sessions for those who want to partake. Part of these sessions is mindfulness. Mindfulness exercises are simple. Find a comfortable place to sit, where you can find a balance between relaxation and alertness. Begin paying exclusive attention to your breath. Try to notice when your attention slips away, and gently refocus it on your breath.</p>
+
+<p>The point of this exercise is simple. Improve your attention by exercising it. Improve your awareness of your attention by exercising that.</p>
+
+<p>We do this for several minutes. I tend to shut my eyes. You can also try counting to see how long you can go without distraction. This is also a really good way to relax, and calm your mind.</p>
+
+<p><em>writing ceases for a week</em></p>
+
+<p><strong>Suddenly, it&rsquo;s Friday night, 5 days later.</strong> I&rsquo;ve been meaning to finish this post since Sunday, but have only just found the time. It&rsquo;s a week until the end of Dev Academy. If it feels like time has flown through these blog posts, then I feel that&rsquo;s only indicative of real life.</p>
+
+<p>We&rsquo;ve just started our final team projects yesterday. Richard, Taylor, Andrew and I are working on Skirmish. It&rsquo;s a multiplayer turn based war game (like Risk) played on Google Maps. Final projects are the most intense part of Dev Academy. We coded for around 11 hours today. Richard and Andrew were still going when I left. This is easily the largest and most complex application I&rsquo;ve been involved in building.</p>
+
+<p>We spent around 4 hours planning out our initial vision, user stories and architecture. Taylor (my flatmate and good friend) took the role of Architecture/Tech Lead. Since we want Skirmish to be multiplayer, we have to design the architecture with that in mind from the get go.</p>
+
+<p><img src="http://i.imgur.com/GhvdbPk.jpg" alt="Imgur" />
+<em>Skirmish Architecture Planning</em></p>
+
+<p>Richard pitched the idea for Skirmish, and took on the role of project lead. He lead us in developing user stories for requirements. We decided what we wanted to include for the MVP (minimum viable product) and we ended up with a fairly large project still. We want a functioning game with multiplayer, where players can capture other cities and fight. Ideally an MVP is as simple as possible, but even our smallest vision has a lot of moving pieces.</p>
+
+<p>We have until next Friday morning to do as much as we can on Skirmish. As always, learning comes first. It doesn&rsquo;t really matter if the product that comes out the other side is perfect, as long as you learned lots and had a good time. That said, we&rsquo;re working hard. Every member of our team will be working every day until it&rsquo;s over. Lots and lots of coding.</p>
+
+<p>You can check out the code for Skirmish on <a href="http://github.com/rantgames">Github</a>.</p>
+
+<p>I am barely awake at this point, so I figure I should just post this (good idea, right?). There is so much that could be written about that I have missed or forgotten. The last few weeks have been unique, to say the least. It&rsquo;s hard to express in English, so permit some Ruby code instead.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>def how_have_i_been?
+</span><span class='line'>  week_adjectives = [
+</span><span class='line'>    'tiring',
+</span><span class='line'>    'interesting',
+</span><span class='line'>    'learning-y(?)',
+</span><span class='line'>    'hectic',
+</span><span class='line'>    'hard',
+</span><span class='line'>    'inspiring',
+</span><span class='line'>    'slightly crazy',
+</span><span class='line'>    'intense',
+</span><span class='line'>    'awesome'
+</span><span class='line'>  ]
+</span><span class='line'>
+</span><span class='line'>  *all_but_last, last = week_adjectives
+</span><span class='line'>
+</span><span class='line'>  all_the_adjectives = "#{all_but_last.join ', '} and #{last}."
+</span><span class='line'>
+</span><span class='line'>  puts "The last couple of weeks have been #{all_the_adjectives}"
+</span><span class='line'>end
+</span><span class='line'>
+</span><span class='line'>how_have_i_been?</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
+
+<p><em>Yes Ben, I violated the Single Responsibility Principle for the sake of readability. Deal with it.</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dev Academy - Week 3 &amp; 4: A New Era]]></title>
