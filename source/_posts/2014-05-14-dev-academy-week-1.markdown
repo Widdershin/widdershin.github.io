@@ -14,6 +14,8 @@ Dev Academy is the first ever coding bootcamp in New Zealand, and this is the fi
 
 So far in the last two days we've covered a myriad of material ranging from search algorithms and recursion to a "deep dive" session about sexism and inequality. EDA has a focus on a well rounded education, and is devoting a good amount of time to what they call Engineering Empathy. That's a stream that focuses on the emotional intelligence side of things. If you're interested in that (and you should be), I would suggest checking out [Karim Bishay's intro video](http://recode.net/2014/04/30/engineering-empathy-tears-and-fears-at-dev-bootcamp/) on the subject.
 
+<!--more-->
+
 I've been programming for around 4 years now, maybe 1.5 seriously, and I'm one of the more experienced members of the cohort. Most of my fellow boots (meaning cohort members, a term borrowed from Dev Bootcamp) hadn't even touched programming before the introductory phase.
 
 It's astounding how quickly everyone is picking up the material. Dev Academy has a huge emphasis on pair programming and TDD, and the benefits show. We're rapidly plowing through the material that a first year computer science course covers, and nobody is missing a beat.

@@ -17,6 +17,7 @@ The last day of Dev Academy was really touching. We presented our final projects
 
 After that, we took our first field trip of the course, and headed up to Central Park. We did an exercise where everyone divides into two parallel rows, facing each other. Each person is in turn blindfolded and walks between the two rows. Each person standing quietly gives the blindfoldee a piece of praise as they pass.
 
+<!--more-->
 
 It sounds terribly cheesy. I personally found it overwhelmingly positive to go through. As the blindfoldee (is that even a word?) you hear a rush of feedback, and you can only really grab onto it as it passes. It's more of a surge of goodwill than anything.
 

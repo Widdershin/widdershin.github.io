@@ -10,11 +10,11 @@ There was a certain logistical problem I never really considered when I decided 
 
 For the record, I'm sitting on my couch writing this on the Sunday night at the end of Week 7 of Dev Academy. As of tomorrow, two weeks remain until graduation. Feels a bit mad.
 
-  
-
 **Learning comes first**, both at Dev Academy and in this post. This is a maxim that has been drilled into us at Dev Academy. If the curriculum isn't working for you, throw it out. If there's something better you could be doing for your learning, do that instead.
 
 I love this philosophy. I've found I work best in an environment where I can create my own structure. As we've moved into Phase 3 (the phase where we're treated more as developers, and less as students) we have more of an increased freedom to choose what we do. The first two phases of the course highly emphasized pairing (Pair Programming, two developers working together on the same computer on the same problem). Phase three is now solo optional all the time. I find that independent programming and then pairing on hard problems is a better way to work anyway.
+
+<!--more-->
 
 I appreciate the ability to direct my learning a bit more. I've been hard at work rewriting my website [NZ Skate Search](http://www.nzskatesearch.com/) in Ruby on Rails (a web framework that is the emphasis of the Ruby stream at Dev Academy). I originally wrote it in Python with Flask, but it was a bit of a hack job and had no tests. I've been working on writing the new version in the best way I can. I'm using heavy test driven development and emphasizing best practice. It's nice to be able to take this time to work on my craftsmanship.
 
