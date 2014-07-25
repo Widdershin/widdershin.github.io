@@ -4,7 +4,7 @@
   <title><![CDATA[Widdershin's Blog]]></title>
   <link href="http://widdersh.in/atom.xml" rel="self"/>
   <link href="http://widdersh.in/"/>
-  <updated>2014-07-25T21:31:37+12:00</updated>
+  <updated>2014-07-25T21:43:57+12:00</updated>
   <id>http://widdersh.in/</id>
   <author>
     <name><![CDATA[Nick Johnstone]]></name>
@@ -25,6 +25,9 @@
 <p>The last day of Dev Academy was really touching. We presented our final projects in the morning. Richard, Andrew, Taylor and I had created Skirmish, a multiplayer war game played on Google Maps. I can&rsquo;t do justice to the presentations, so I will post the video once it&rsquo;s available. I was really impressed by the level of quality of each of the final projects, especially from the technically weaker team.</p>
 
 <p>After that, we took our first field trip of the course, and headed up to Central Park. We did an exercise where everyone divides into two parallel rows, facing each other. Each person is in turn blindfolded and walks between the two rows. Each person standing quietly gives the blindfoldee a piece of praise as they pass.</p>
+
+<!--more-->
+
 
 <p>It sounds terribly cheesy. I personally found it overwhelmingly positive to go through. As the blindfoldee (is that even a word?) you hear a rush of feedback, and you can only really grab onto it as it passes. It&rsquo;s more of a surge of goodwill than anything.</p>
 
@@ -58,6 +61,9 @@
 <p><strong>Learning comes first</strong>, both at Dev Academy and in this post. This is a maxim that has been drilled into us at Dev Academy. If the curriculum isn&rsquo;t working for you, throw it out. If there&rsquo;s something better you could be doing for your learning, do that instead.</p>
 
 <p>I love this philosophy. I&rsquo;ve found I work best in an environment where I can create my own structure. As we&rsquo;ve moved into Phase 3 (the phase where we&rsquo;re treated more as developers, and less as students) we have more of an increased freedom to choose what we do. The first two phases of the course highly emphasized pairing (Pair Programming, two developers working together on the same computer on the same problem). Phase three is now solo optional all the time. I find that independent programming and then pairing on hard problems is a better way to work anyway.</p>
+
+<!--more-->
+
 
 <p>I appreciate the ability to direct my learning a bit more. I&rsquo;ve been hard at work rewriting my website <a href="http://www.nzskatesearch.com/">NZ Skate Search</a> in Ruby on Rails (a web framework that is the emphasis of the Ruby stream at Dev Academy). I originally wrote it in Python with Flask, but it was a bit of a hack job and had no tests. I&rsquo;ve been working on writing the new version in the best way I can. I&rsquo;m using heavy test driven development and emphasizing best practice. It&rsquo;s nice to be able to take this time to work on my craftsmanship.</p>
 
@@ -157,7 +163,10 @@
 
 <p>The start of week 3 has become a bit hazy now, so bear with me as I recollect. We spent the first few days dedicated to learning about databases and SQL (a language for talking to databases).</p>
 
-<p>We started out by making applications that communicated with the database via raw SQL queries (not fun), then moved into making our own <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> (Object-relational Mapper, a way to work with databases at a more abstract level, with objects in code). This was definitely a cool exercise, as most people will never write an ORM (because there&rsquo;s no real need to write your own). We then moved from there to using the most popular ORM for Ruby, ActiveRecord. ActiveRecord is much easier and nicer to use than the ORMs we made ourselves, but it&rsquo;s definitely worthwhile to know how it works. Dev Academy often takes this approach, teaching you the internals out to flesh out your understanding. (I had made an ORM previously, called <a href="https://github.com/Widdershin/butterdb">ButterDB</a>. It lets you use Google Spreadsheets as a database, and was originally a joke project.)</p>
+<p>We started out by making applications that communicated with the database via raw SQL queries (not fun), then moved into making our own <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> (Object-relational Mapper, a way to work with databases at a more abstract level, with objects in code). This was definitely a cool exercise, as most people will never write an ORM (because there&rsquo;s no real need to write your own).We then moved from there to using the most popular ORM for Ruby, ActiveRecord. ActiveRecord is much easier and nicer to use than the ORMs we made ourselves, but it&rsquo;s definitely worthwhile to know how it works. Dev Academy often takes this approach, teaching you the internals out to flesh out your understanding. (I had made an ORM previously, called <a href="https://github.com/Widdershin/butterdb">ButterDB</a>. It lets you use Google Spreadsheets as a database, and was originally a joke project.)</p>
+
+<!--more-->
+
 
 <p>We start off every week on Monday morning with a retrospective of the previous week. As a cohort, we go over how we felt about the previous week. What went well, what didn&rsquo;t go so well, and what we&rsquo;d like to change going forward. We also cover the things we wanted to change from the previous week&rsquo;s retrospective, and make sure that they are happening. There have been changes like improvements to the coding challenges, adjustments of coach times and solo days. I think this is a super valuable process, and  I&rsquo;ve found it novel to reflect in a group like that. It helps to ensure a feeling of participation and change.</p>
 
@@ -239,6 +248,9 @@ Health: 100, Gems: 150</p></blockquote>
 
 <p>At Dev Academy, we spent Monday and Tuesday diving deeper into OO, then into the MVC pattern (for those uninitiated, <a href="http://en.wikipedia.org/wiki/Model_view_controller">Model View Controller</a> is a common structure for building websites). Some of my fellow boots struggled with this at first, but it was cool to see them thoroughly grasp the concepts after such a short intro. It&rsquo;s always cool when you get to see the rays of light shine through, or the &lsquo;Aha!&rsquo; moment as Dev Academy folk say.</p>
 
+<!--more-->
+
+
 <p>We spent some time on Tuesday evening doing a deep dive session about the Inner Critic. Joshua (one of the teachers and the resident Engineering Empathy guru) gave a brief talk about the idea of the Super Ego, and about ways to defend and ignore pointless inner attacks or criticisms. I found this really fascinating, as I definitely have a vocal inner critic, and the idea that I could learn defense mechanisms against that appealed to me. We did a rather intense exercise where we paired off, and vocalized our inner critic to our partner. I found this a lot more emotional than I was anticipating. It really helps to validate that a lot of the stuff you say to yourself is just a silly attack. It&rsquo;s also good to get some of that stuff out in the open, and to hear that other people have the same sort of worries as you.</p>
 
 <p>On Wednesday (a day where you can optionally work alone, as opposed to our usual pair programming), we were told that we would be pulled aside for a mock assessment. I had mine with Joshua. He prompted me through some fairly standard programming, and then gave me some feedback and advice. There was little given on the programming side, but he gave me some interesting advice about using my time to see how I can best impact the team, and having a (as he puts it) meta-awareness of the social stuff around me. Some of it felt as if he&rsquo;d been watching me like a hawk for the last few weeks, but I feel it was just more perceptive than anything. I also really appreciated how he delivered the feedback. Some of it could have been difficult to stomach if it was laid on me, but he gave it in such a way that it was easier to receive.</p>
@@ -280,6 +292,9 @@ Health: 100, Gems: 150</p></blockquote>
 <p>8.45am: Arrive and check in with my accountability group. This sounds a lot scarier then it actually is. Your accountability group is basically 2-3 other people who you check in with daily to see how you&rsquo;re all going (and to make sure you&rsquo;re all there).</p>
 
 <p>9am: We all head into the lecture room and start the day with some notices, then get stuck in with an Engineering Empathy session. So far we&rsquo;ve mostly been doing looping sessions, which are a really interesting exercise. Everybody pairs up, and is given a question like &ldquo;What is a time you were discriminated against and how did that make you feel?&rdquo;. You then talk to your partner about that for two minutes, while they listen intently. Once the two minutes is up, your partner then repeats back what they heard and what they think you were saying. Then you swap roles and repeat the process.</p>
+
+<!--more-->
+
 
 <p>It&rsquo;s a fascinating exercise, and I found the discrimination one particularly interesting, because as a straight white middle class male, it&rsquo;s not often that I&rsquo;m discriminated against because of my background. I was struggling to think of an example, but I ultimately ended up talking about how I never really felt like I fit into NZQA (New Zealand&rsquo;s high school qualification system). It was really hard to have so much pressure to fit into a system that I never really felt was a good judge of my learning, especially from my family and friends. It was a much more emotional experience than I had thought and I felt like my partners and I really connected.</p>
 
@@ -355,6 +370,9 @@ Hey man, That is actually really cool! I took the time and watched the whole vid
 <p>Dev Academy is the first ever coding bootcamp in New Zealand, and this is the first time the program has been run. Based off of San Francisco&rsquo;s Dev Bootcamp program, Dev Academy tries to take people at all programming skill levels, and help them learn as much as possible about webdev in 9 weeks. It&rsquo;s an ambitious undertaking, but I think the graduates might speak for themselves. We&rsquo;ll see.</p>
 
 <p>So far in the last two days we&rsquo;ve covered a myriad of material ranging from search algorithms and recursion to a &ldquo;deep dive&rdquo; session about sexism and inequality. EDA has a focus on a well rounded education, and is devoting a good amount of time to what they call Engineering Empathy. That&rsquo;s a stream that focuses on the emotional intelligence side of things. If you&rsquo;re interested in that (and you should be), I would suggest checking out <a href="http://recode.net/2014/04/30/engineering-empathy-tears-and-fears-at-dev-bootcamp/">Karim Bishay&rsquo;s intro video</a> on the subject.</p>
+
+<!--more-->
+
 
 <p>I&rsquo;ve been programming for around 4 years now, maybe 1.5 seriously, and I&rsquo;m one of the more experienced members of the cohort. Most of my fellow boots (meaning cohort members, a term borrowed from Dev Bootcamp) hadn&rsquo;t even touched programming before the introductory phase.</p>
 
