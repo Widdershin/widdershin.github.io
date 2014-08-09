@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Dev Academy - Week 3 &amp; 4: A New Era - Nick Johnstone's Blog</title>
+  <meta name="author" content="Nick Johnstone">
+
+  
+  <meta name="description" content="It&rsquo;s been a hectic few weeks since my last post. We&rsquo;ve been hurtling through databases, team projects, web applications and more. I&rsquo &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://widdersh.in/dev-academy-week-3-and-4-a-new-era">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Nick Johnstone's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43132161-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <nav role="navigation">
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:widdersh.in" />
+    <input class="search" type="text" name="q" results="0" placeholder="Type to Search"/>
+  </fieldset>
+</form>
+  
+
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <header role="banner"><div class='hero'>
+	<div class='wrap'>
+	  <h1><a href="/">Nick Johnstone's Blog</a></h1>
+	  
+	    <h2>Sometimes I write things</h2>
+	  
+	</div>
+</div>
+
+</header>
+  
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Dev Academy - Week 3 &amp; 4: A New Era</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-10T23:43:29+12:00" pubdate data-updated="true">Jun 10<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It&rsquo;s been a hectic few weeks since my last post. We&rsquo;ve been hurtling through databases, team projects, web applications and more. I&rsquo;ve been busy putting off writing this post for two weeks, but here I am. Let&rsquo;s do it.</p>
+
+<p>The start of week 3 has become a bit hazy now, so bear with me as I recollect. We spent the first few days dedicated to learning about databases and SQL (a language for talking to databases).</p>
+
+<p>We started out by making applications that communicated with the database via raw SQL queries (not fun), then moved into making our own <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> (Object-relational Mapper, a way to work with databases at a more abstract level, with objects in code). This was definitely a cool exercise, as most people will never write an ORM (because there&rsquo;s no real need to write your own).We then moved from there to using the most popular ORM for Ruby, ActiveRecord. ActiveRecord is much easier and nicer to use than the ORMs we made ourselves, but it&rsquo;s definitely worthwhile to know how it works. Dev Academy often takes this approach, teaching you the internals out to flesh out your understanding. (I had made an ORM previously, called <a href="https://github.com/Widdershin/butterdb">ButterDB</a>. It lets you use Google Spreadsheets as a database, and was originally a joke project.)</p>
+
+<!--more-->
+
+
+<p>We start off every week on Monday morning with a retrospective of the previous week. As a cohort, we go over how we felt about the previous week. What went well, what didn&rsquo;t go so well, and what we&rsquo;d like to change going forward. We also cover the things we wanted to change from the previous week&rsquo;s retrospective, and make sure that they are happening. There have been changes like improvements to the coding challenges, adjustments of coach times and solo days. I think this is a super valuable process, and  I&rsquo;ve found it novel to reflect in a group like that. It helps to ensure a feeling of participation and change.</p>
+
+<p>On Thursday and Friday we had our second team project. We were told to build something we wanted to build, with some deadlines. We had a feature freeze (no adding features after that) at 3.30pm on Friday and a code freeze at 4.30pm. We were to give a presentation and demo at 5pm.</p>
+
+<p>Our team (Richard, Hannah, Genevieve and myself) decided to build a text based adventure game (think <a href="http://en.wikipedia.org/wiki/Zork">Zork</a>). We built the (very creatively named) <a href="https://github.com/Widdershin/text-based-adventure">text-based-adventure</a> game by Friday afternoon. It&rsquo;s fully featured (including fighting, looting and death), but sparse on content. I think 5 rooms made it into the demo we had.</p>
+
+<p>Here&rsquo;s what it looks like to play.</p>
+
+<blockquote><p>λ ruby game.rb <br/>
+Welcome to generic text adventure!<br/>
+You are in the throne room. There is gold and ruby everywhere. You can see a corridor lined with spiderwebs to the west and there is a small water closet to the east. Make your move!<br/>
+There are 50 gems in this room.<br/>
+Health: 100, Gems: 0<br/>
+> loot<br/>
+Health: 100, Gems: 50<br/>
+> go west<br/>
+Health: 100, Gems: 50<br/>
+> look<br/>
+Welcome and close the door. Hiding behind the cistern (what are you doing down there) is a box with silver chains in it. There is a small window to the north that leads out onto a firest rife with. The only other option is down the cistern but it appears to be blocked. Where would you like to go?<br/>
+There are 3 gems in this room.<br/>
+Health: 100, Gems: 50<br/>
+> go north<br/>
+Health: 100, Gems: 50<br/>
+> look<br/>
+You are in a forest. You hear a flapping of scaly wings. There are gold goblets and precious jewels in potholes in the smouldered ground. Take some and run if you dare, or face your doom.<br/>
+There are 100 gems in this room.<br/>
+Health: 100, Gems: 50<br/>
+> loot<br/>
+Health: 100, Gems: 150</p></blockquote>
+
+<p>(I think we forgot to include enemies in the demo, but they&rsquo;re in there somewhere)</p>
+
+<p>I had a really great time working on this game. Our team worked really well together; we communicated and organized effectively. We had a big focus on automated testing, and I think that really helped on the tech side.</p>
+
+<p>Friday was the final day of Phase 1 of Dev Academy. The course is three phases, with the first covering general development, the second covering web development, and the third being project focused.</p>
+
+<p>I&rsquo;m still astounded at the immense growth and learning that my fellow cohort members have shown. The problems we&rsquo;re tackling now are so much harder than when we began, and they keep rising to the task. I learnt a lot of what I know on my own, and it&rsquo;s definitely much slower. I think Dev Academy&rsquo;s environment lends itself very well to rapid learning. You have the right mix of enthusiasm, passionate people and resources.</p>
+
+<p>We celebrated the end of the phase with a sweet party, of course. It was cool to hang out with some of the other cohort members and relax, play some games on the project, and have some free food and drinks. It was really cool of the course (via course wizard/admin Rohan) to so generously provide food and booze.</p>
+
+<p>Week 4 began and we kicked off phase 2 (the web development phase of Dev Academy). I know a lot of my fellow students were eager to move away from making command line applications, into something that more people can use and see.</p>
+
+<p>We spent the first few days learning the basics of web development, and making progressively more intricate sites. I found a couple particularly fun. One was on Tuesday, when we were tasked with creating a basic clone of Craigslist. It was a simple listing site, but it was cool piecing it together in a well designed way, and helping the other cohort members build one of their first proper websites.</p>
+
+<p>The other particularly enjoyable challenge was to build a simple login system. I was pairing with Taylor, my friend and flatmate, and he and I decided to take a different tack. We ended up building an authentication system that would let you log in, and then send a link to your friends so they would be logged in as you. Not a good idea, but fun to make and humorous (if you&rsquo;re a programmer I suppose).</p>
+
+<p>On Thursday and Friday we built our third team project. We were tasked with either building a functional clone of Twitter or a Flashcards web app. All three of the teams opted to build the Twitter clone.</p>
+
+<p>We built another creatively named app, Twytter.
+<img src="http://i.imgur.com/iCC8uPX.png" alt="Twytter" /></p>
+
+<p>Some minor styling issues aside, I was really happy with what we delivered at 5pm. All of the features (like tweeting, retweeting, following, the feed, etc) were functional and complete. We also managed to get in the bonus customer feature, favorite tweets. We were given that feature request late on Friday afternoon, to see how we handled changing requirements.</p>
+
+<p>I worked with Richard, Kendall and Tim. All of the teams were employing a method of building software called <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile</a>. Agile is a way of running software teams that helps rapid, flexible development. It&rsquo;s well used in the industry, and was a great way of running our project. It has nice ways of tracking progress (like <a href="http://en.wikipedia.org/wiki/Kanban_board">Kanban Boards</a> and Sprints). I don&rsquo;t really want to go into detail here, so I definitely suggest readers do some reading if they&rsquo;re interested.</p>
+
+<p>We definitely took a few lessons away from this team project. For one, we opted to deal with all of our presentation and styling at the end, rather than alongside feature building. This meant that it was more difficult than it needed to be to piece everything together.</p>
+
+<p>We also made the mistake of not defining a clear scope of what we wanted to build, and by when. We were provided with a bunch of user stories (a way of phrasing a project feature or requirement, like &lsquo;As a user I can post a tweet.&rsquo;) We built all of those stories by the deadline, but as Richard pointed out, we could have dropped a feature in exchange for much more polish elsewhere.</p>
+
+<p>I always enjoy the team exercises at Dev Academy. It&rsquo;s nice to work together with a larger group of people to make something that is hopefully more than the sum of its parts. I have been focusing on taking less of a leadership role during these projects, as I have a bit of a tendency to take that up if nobody seems too inclined. I want to let others take the lead more, and see how that goes.</p>
+
+<p>On Thursday night we had another Dev Academy tech talk. Free pizza, beer and good company included, the entire evening was a treat. This time, Kirk Jackson (Xero&rsquo;s Security Officer) gave a talk about encryption and security, entitled &ldquo;Tales from Beyond the Crypto&rdquo;. Kirk was an excellent speaker, and it was a well timed topic, as we had just started building authentication for our projects. A lot of programmers never learn about crypto or security best practices, so I think it&rsquo;s awesome the the Dev Academy students got a good exposure to it. I know it definitely inspired some of my fellow students to think more seriously about getting into security.</p>
+
+<p>Well, that&rsquo;s about all I can muster the effort to say at this point. Hopefully I can crack the next post out next weekend, but definitely soon. As always, any feedback appreciated.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nick Johnstone</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-10T23:43:29+12:00" pubdate data-updated="true">Jun 10<span>th</span>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/dev-academy-week-2-electric-boogaloo/" title="Previous Post: Dev Academy - Week 2: Electric Boogaloo">&laquo; Dev Academy - Week 2: Electric Boogaloo</a>
+      
+      
+        <a class="basic-alignment right" href="/dev-academy-week-5-through-8-subtitle-undefined/" title="Next Post: Dev Academy - Week 5 through 8: Subtitle undefined">Dev Academy - Week 5 through 8: Subtitle undefined &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+<!-- 
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/on-being-down/">On Being Down</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-the-end/">Dev Academy - the End</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-5-through-8-subtitle-undefined/">Dev Academy - Week 5 Through 8: Subtitle Undefined</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-3-and-4-a-new-era/">Dev Academy - Week 3 &amp; 4: A New Era</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-2-electric-boogaloo/">Dev Academy - Week 2: Electric Boogaloo</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Widdershin">@Widdershin</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Widdershin',
+            count: 7,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/NickJohnstoneNZ?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+ -->
+
+    </div>
+  </div>
+  <!-- <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Nick Johnstone -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+
+
+</footer> -->
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <aside class="sidebar">
+    
+      <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/on-being-down/">On Being Down</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-the-end/">Dev Academy - the End</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-5-through-8-subtitle-undefined/">Dev Academy - Week 5 Through 8: Subtitle Undefined</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-3-and-4-a-new-era/">Dev Academy - Week 3 &amp; 4: A New Era</a>
+      </li>
+    
+      <li class="post">
+        <a href="/dev-academy-week-2-electric-boogaloo/">Dev Academy - Week 2: Electric Boogaloo</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Widdershin">@Widdershin</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Widdershin',
+            count: 7,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/NickJohnstoneNZ?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+    
+  </aside>
+  
+</body>
+
+
+</html>
