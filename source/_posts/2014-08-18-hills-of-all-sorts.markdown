@@ -22,6 +22,8 @@ I chose Powershop because they have a fantastic company culture, put out quality
 
 As a new developer, you join the Dev Train, a special team where you just learn and improve. New devs spend up to three months working on games and other interesting projects to hone their skills before being consigned into production code.
 
+<!--more-->
+
 I've been tasked with making a digital version of the board game, Ticket To Ride. I've taken the opportunity to try some new things (like [BDD with Cucumber](https://github.com/Widdershin/learning/issues/1)), and I'm learning a lot. It's such a great way to start a job.
 
 I've been immensely enjoying my first few days of working at Powershop. I'm also really stoked that they hired another Dev Academy graduate, my good friend Tim. It's cool that I get to continue working and learning with him.
