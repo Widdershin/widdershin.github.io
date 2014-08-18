@@ -14,7 +14,7 @@ You should watch this video:
 
 Earlier this year, I set myself a goal. By the end of 2014, I would be living in Wellington making cool things for a living. I think I've done it.
 
-I started working at Powershop yesterday. Powershop is (as the name says) a shop for power.
+I started working at Powershop last week. Powershop is (as the name says) a shop for power.
 
 I was quite fortunate in my job hunting, and ended up with four different offers from Wellington software companies to choose from.
 
