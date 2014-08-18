@@ -8,7 +8,7 @@ categories:
 
 You should watch this video:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/Rj7NEKfjtsc" frameborder="0" allowfullscreen></iframe>
+<iframe width="670" height="376" src="//www.youtube.com/embed/Rj7NEKfjtsc" frameborder="0" allowfullscreen></iframe>
 
 **Powershop**
 
@@ -30,7 +30,7 @@ I've been immensely enjoying my first few days of working at Powershop. I'm also
 
 Lately, I've been thinking quite a lot about depression and mental illness. I wrote a post recently about [being down, and how life gets better](http://widdersh.in/on-being-down/). Someone who happened to read it sent me an email, with a talk from Ruby Midwest by a developer with ADD and bipolar syndrome.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/yFIa-Mc2KSk" frameborder="0" allowfullscreen></iframe>
+<iframe width="670" height="376" src="//www.youtube.com/embed/yFIa-Mc2KSk" frameborder="0" allowfullscreen></iframe>
 
 It hit home a bit. I've never been tested for any mental illness, but now I think I will go talk to someone about it. I've often had trouble reigning in my emotions and motivation, and the more I think about it the more I wonder.
 
