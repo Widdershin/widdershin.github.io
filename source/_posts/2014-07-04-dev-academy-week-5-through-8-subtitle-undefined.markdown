@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - Week 5 through 8: Subtitle undefined"
 date: 2014-07-04 23:45:00 +1200
 comments: true
-categories: 
+categories: dev-academy life programming essays
 ---
 
 There was a certain logistical problem I never really considered when I decided I was going to write weekly Dev Academy blog posts. As Dev Academy goes on, the amount of things going on increases. This means that there is not only more to write about, but also less time to write about it. To maybe combat that issue, I've decided to try a little something different this time. Forget chronology, we're gonna check out some highlights. Less is more.

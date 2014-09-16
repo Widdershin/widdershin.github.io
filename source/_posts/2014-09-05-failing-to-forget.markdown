@@ -3,7 +3,7 @@ layout: post
 title: "Failing to Forget"
 date: 2014-09-05 21:55:28 +1200
 comments: true
-categories: 
+categories: programming hack
 ---
 
 ![http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/](https://dl.dropboxusercontent.com/u/25009451/ProgrammerInterrupted.png)

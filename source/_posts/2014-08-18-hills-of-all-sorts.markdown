@@ -3,7 +3,7 @@ layout: post
 title: "Hills of all sorts"
 date: 2014-08-18 19:26:23 +1200
 comments: true
-categories: 
+categories: life essays depression skating programming
 ---
 
 You should watch this video:

@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - The End"
 date: 2014-07-25 20:29:48 +1200
 comments: true
-categories:
+categories: dev-academy life programming
 ---
 
 Dev Academy is over, for my cohort at least. A fresh batch of students will be arriving to start Phase 1 in just over a week.

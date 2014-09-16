@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - Week 3 &amp; 4: A New Era"
 date: 2014-06-10 23:43:29 +1200
 comments: true
-categories: 
+categories: dev-academy life programming
 ---
 
 It's been a hectic few weeks since my last post. We've been hurtling through databases, team projects, web applications and more. I've been busy putting off writing this post for two weeks, but here I am. Let's do it.

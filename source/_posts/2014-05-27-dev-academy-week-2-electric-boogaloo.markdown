@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - Week 2: Electric Boogaloo"
 date: 2014-05-27 00:05:29 +1200
 comments: true
-categories: 
+categories: dev-academy life programming
 ---
 
 Another week has passed, just like that. It's Monday night, and after a few days of procrastinating I'm tackling my blog post for the week.

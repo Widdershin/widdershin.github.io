@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - Week 1"
 date: 2014-05-14 17:08:52 +1200
 comments: true
-categories: 
+categories: dev-academy life programming
 ---
 
 Let me set the scene. It's the second day at Enspiral Dev Academy, and I'm lounging in the 'Ctrl' space. It's 8pm, and I've been here since 8.45am. I'll try to give you an introduction to what life has been like at EDA so far.

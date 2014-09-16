@@ -3,7 +3,7 @@ layout: post
 title: "Dev Academy - End of Week 1"
 date: 2014-05-17 21:33:52 +1200
 comments: true
-categories: 
+categories: dev-academy life programming
 ---
 
 *If you haven't already, it might be worth checking out my [first post about Dev Academy](http://widdersh.in/dev-academy-week-1/)*

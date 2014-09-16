@@ -3,7 +3,7 @@ layout: post
 title: "On Being Down"
 date: 2014-07-28 23:43:51 +1200
 comments: true
-categories: 
+categories: essays depression
 ---
 
 *I originally posted this on Facebook, but I thought I would repost it here for posterity.*
