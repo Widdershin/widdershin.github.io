@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Essays | Nick Johnstone's Blog]]></title>
+  <link href="http://widdersh.in/blog/categories/essays/atom.xml" rel="self"/>
+  <link href="http://widdersh.in/"/>
+  <updated>2014-09-16T20:09:35+12:00</updated>
+  <id>http://widdersh.in/</id>
+  <author>
+    <name><![CDATA[Nick Johnstone]]></name>
+    <email><![CDATA[ncwjohnstone@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Politics and Anarchy]]></title>
+    <link href="http://widdersh.in/politics-and-anarchy/"/>
+    <updated>2014-09-16T19:25:45+12:00</updated>
+    <id>http://widdersh.in/politics-and-anarchy</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been thinking a lot about politics recently.</p>
+
+<p>For most of my life, so far, I&rsquo;ve thought anarchists were delusional. A world without government? You&rsquo;d have to be crazy to think that&rsquo;s a good idea. In my mind, anarchists wanted to inflict chaos upon society.</p>
+
+<p>It recently occurred to me that anarchists aren&rsquo;t crazy, just optimistic. I feel anarchy is about the belief that humanity might be capable of living together without <em>needing</em> a strong system of governance. I&rsquo;ve started to think anarchy might be about hope, not chaos and fear as I previously thought.</p>
+
+<p>This realization came at a useful time. The election is happening soon, and I&rsquo;ve been watching my friends and acquaintances discuss politics on Facebook. The most disheartening thing to me is the division between supporters of the different parties. I&rsquo;ve seen people removing each other as internet friends, simply because they support a different party. To me, this speaks of an unwillingness to consider and understand why other people think the way they do.</p>
+
+<p>All of my beliefs and opinions exist simply because they were what made sense to me at the time. When you drive away from people who think differently from you, you limit your view of the world. In effect, you create a feedback loop that supports your views (the technical internet term is a &lsquo;circlejerk&rsquo;).</p>
+
+<p>I think it&rsquo;s important that we try and break out of the echo chamber of opinions we&rsquo;ve built and have some real discussions. Everyone you meet has had different experiences and will perceive things in different ways.</p>
+
+<p>My advice to you is simple. Strive to see the world through the eyes of others. You might find something you like.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hills of All Sorts]]></title>
+    <link href="http://widdersh.in/hills-of-all-sorts/"/>
+    <updated>2014-08-18T19:26:23+12:00</updated>
+    <id>http://widdersh.in/hills-of-all-sorts</id>
+    <content type="html"><![CDATA[<p>You should watch this video:</p>
+
+<iframe width="670" height="376" src="//www.youtube.com/embed/Rj7NEKfjtsc" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Powershop</strong></p>
+
+<p>Earlier this year, I set myself a goal. By the end of 2014, I would be living in Wellington making cool things for a living. I think I&rsquo;ve done it.</p>
+
+<p>I started working at Powershop last week. Powershop is (as the name says) a shop for power.</p>
+
+<p>I was quite fortunate in my job hunting, and ended up with four different offers from Wellington software companies to choose from.</p>
+
+<p>I chose Powershop because they have a fantastic company culture, put out quality products, and treat their employees well. They also met my fixed requirement of having a ping pong table. Everyone I&rsquo;ve gotten to know there, so far, has been really cool. There is a healthy diversity of backgrounds and ideas at Powershop, which I really value.</p>
+
+<p>As a new developer, you join the Dev Train, a special team where you just learn and improve. New devs spend up to three months working on games and other interesting projects to hone their skills before being consigned into production code.</p>
+
+<!--more-->
+
+
+<p>I&rsquo;ve been tasked with making a digital version of the board game, Ticket To Ride. I&rsquo;ve taken the opportunity to try some new things (like <a href="https://github.com/Widdershin/learning/issues/1">BDD with Cucumber</a>), and I&rsquo;m learning a lot. It&rsquo;s such a great way to start a job.</p>
+
+<p>I&rsquo;ve been immensely enjoying my first few days of working at Powershop. I&rsquo;m also really stoked that they hired another Dev Academy graduate, my good friend Tim. It&rsquo;s cool that I get to continue working and learning with him.</p>
+
+<p><strong>Depression and Mental Illness</strong></p>
+
+<p>Lately, I&rsquo;ve been thinking quite a lot about depression and mental illness. I wrote a post recently about <a href="http://widdersh.in/on-being-down/">being down, and how life gets better</a>. Someone who happened to read it sent me an email, with a talk from Ruby Midwest by a developer with ADD and bipolar syndrome.</p>
+
+<iframe width="670" height="376" src="//www.youtube.com/embed/yFIa-Mc2KSk" frameborder="0" allowfullscreen></iframe>
+
+
+<p>It hit home a bit. I&rsquo;ve never been tested for any mental illness, but now I think I will go talk to someone about it. I&rsquo;ve often had trouble reigning in my emotions and motivation, and the more I think about it the more I wonder.</p>
+
+<p>It&rsquo;s scary to talk about mental illness since society seems to still refuse to really open that door. I think that Depression and Co. live closer to home than people might realize. Just last week, the internet/world was ablaze with the news of Robin William&rsquo;s death, which appears to have been a suicide. To me, this is tragic and slightly heartbreaking. What scares me the most is that anyone I know could be feeling suicidal, which I probably have no idea.</p>
+
+<p>I think that we need to talk more about mental illness, both in society and within the circle of friends and family. I admire my coworker Chelsea, and <a href="http://chelz.geek.nz/">her blog</a>. I was stunned and inspired to see her honesty about her struggles with depression and suicidal thoughts.</p>
+
+<p>I would love to <a href="mailto:ncwjohnstone@gmail.com">hear your thoughts</a> on any of this. If this section makes you feel uncomfortable, that&rsquo;s fine, it makes me feel a bit uncomfortable too.</p>
+
+<p><strong>butterdb</strong></p>
+
+<p>I was really delighted last Saturday, after someone <a href="https://news.ycombinator.com/item?id=8123450">posted a library</a> I had made (<a href="https://github.com/Widdershin/butterdb">butterdb</a>) on <a href="https://news.ycombinator.com/">Hacker News</a> and it got up to number 3 and stayed there for a while. butterdb is a library for Python that lets you work with data in Google Spreadsheets as objects. It&rsquo;s like an ORM.</p>
+
+<p>For those who aren&rsquo;t familiar with Hacker News, I&rsquo;ll explain why this made me giggle like a child. Hacker News is the forum section of <a href="http://www.ycombinator.com/">ycombinator</a>, a well renowned startup incubator. If your tech business gets to the top, you have either done very well or very badly.</p>
+
+<p>I&rsquo;m excited because it appears that people actually use butterdb now. I&rsquo;ve got a whole load of features to implement, and I plan on rewriting the entire library at some point this month. Mostly, I just wanted to brag a bit :).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[On Being Down]]></title>
+    <link href="http://widdersh.in/on-being-down/"/>
+    <updated>2014-07-28T23:43:51+12:00</updated>
+    <id>http://widdersh.in/on-being-down</id>
+    <content type="html"><![CDATA[<p><em>I originally posted this on Facebook, but I thought I would repost it here for posterity.</em></p>
+
+<p>Someone recently told me something that made me think a bit. &lsquo;It gets better&rsquo;.</p>
+
+<p>I&rsquo;ve heard that a bit but I&rsquo;d never really about how it applied to me. I thought about how the last few years have been for me.</p>
+
+<p>The last year or so of high school was pretty tough in terms of my emotional stability, and I found it really difficult to talk about with other people. Sometimes I would just feel down, for up to weeks at a time. I wasn&rsquo;t sure if I was just being lazy, or if this was just how things were.</p>
+
+<p>It was even worse in that nothing was really wrong with my life. You feel even worse for feeling down, when you have every reason to be up.</p>
+
+<p>I wanted to post this because I&rsquo;ve only recently started thinking that many other people actually go through this. Someone said something to me, so I figure I might pass it on. If you are having a tough time, if you can&rsquo;t shrug feeling down, it honestly gets better.</p>
+
+<p>My life has been much better recently. I&rsquo;ve been in a much better place emotionally, and it&rsquo;s easier to feel good. I&rsquo;m working towards happiness being my default state.</p>
+
+<p>I know this is definitely a bit weird to post on Facebook, but I think it&rsquo;s important to talk about. Hit me up if you want to chat about it (especially about controlling emotions), or comment.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - Week 5 Through 8: Subtitle Undefined]]></title>
+    <link href="http://widdersh.in/dev-academy-week-5-through-8-subtitle-undefined/"/>
+    <updated>2014-07-04T23:45:00+12:00</updated>
+    <id>http://widdersh.in/dev-academy-week-5-through-8-subtitle-undefined</id>
+    <content type="html"><![CDATA[<p>There was a certain logistical problem I never really considered when I decided I was going to write weekly Dev Academy blog posts. As Dev Academy goes on, the amount of things going on increases. This means that there is not only more to write about, but also less time to write about it. To maybe combat that issue, I&rsquo;ve decided to try a little something different this time. Forget chronology, we&rsquo;re gonna check out some highlights. Less is more.</p>
+
+<p>For the record, I&rsquo;m sitting on my couch writing this on the Sunday night at the end of Week 7 of Dev Academy. As of tomorrow, two weeks remain until graduation. Feels a bit mad.</p>
+
+<p><strong>Learning comes first</strong>, both at Dev Academy and in this post. This is a maxim that has been drilled into us at Dev Academy. If the curriculum isn&rsquo;t working for you, throw it out. If there&rsquo;s something better you could be doing for your learning, do that instead.</p>
+
+<p>I love this philosophy. I&rsquo;ve found I work best in an environment where I can create my own structure. As we&rsquo;ve moved into Phase 3 (the phase where we&rsquo;re treated more as developers, and less as students) we have more of an increased freedom to choose what we do. The first two phases of the course highly emphasized pairing (Pair Programming, two developers working together on the same computer on the same problem). Phase three is now solo optional all the time. I find that independent programming and then pairing on hard problems is a better way to work anyway.</p>
+
+<!--more-->
+
+
+<p>I appreciate the ability to direct my learning a bit more. I&rsquo;ve been hard at work rewriting my website <a href="http://www.nzskatesearch.com/">NZ Skate Search</a> in Ruby on Rails (a web framework that is the emphasis of the Ruby stream at Dev Academy). I originally wrote it in Python with Flask, but it was a bit of a hack job and had no tests. I&rsquo;ve been working on writing the new version in the best way I can. I&rsquo;m using heavy test driven development and emphasizing best practice. It&rsquo;s nice to be able to take this time to work on my craftsmanship.</p>
+
+<p>That project is by no means strictly within the scope of the curriculum, but since I&rsquo;m hitting all of my learning objectives, that&rsquo;s what counts. In the biggest team project yet (whole cohort), we were assigned tasks and roles tailored entirely around our learning objectives.</p>
+
+<p>Sometimes the set work clashes with my ability to best learn. The curriculum licensed from Dev Bootcamp San Francisco isn&rsquo;t as up to scratch as was expected. This is not really a problem, as we (as a school) can steer ourselves. Samson, the teacher for the Ruby stream, consults us every morning as to what lectures or breakout sessions we would like today (if any). These are mostly optional, so we have effectively been left to our own devices.</p>
+
+<p>I have to say that this has enabled some of the best learning I&rsquo;ve seen so far this course. In the last week, Kendall and Andrew created an <a href="https://github.com/kendallflutey/rspec-controller-testing">open source template</a> for testing website controllers in Ruby. Genevieve and Richard have been working on a website to help organize code tips and breakout sesssions. Everyone is up to different stuff, and I think that&rsquo;s really cool.</p>
+
+<p><strong>Working 75+ hours a week is rough</strong>, no matter who you are. This is on the lesser side of some of what my fellow cohorts members have been hitting, so credit to them.</p>
+
+<p>I have been pretty tired for the last 3 weeks. Working so much every week gets to you. It makes it harder to get out of bed in the morning, and then to pay attention when I get to course. I&rsquo;ve been trying to eat well (-ish) and get enough sleep, but 7.5 hours a night seems to be draining me.</p>
+
+<p>I find Yoga to be an excellent way to unwind. We&rsquo;ve had it twice a week since the start of the course. It&rsquo;s optional, and I think only around 5 of us out of 13 still partake. I often find I have quite a sore back, and Yoga really helps with that. I appreciate that it&rsquo;s a nice midpoint between meditation and exercise. It helps me to relax both my body and my mind (as cheesy as that might sound). I definitely want to keep up with it after EDA.</p>
+
+<p>I also try and make some time for mindfulness. Although the Engineering Empathy curriculum finished at the end of Phase 2, Joshua, a teacher, still offers sessions for those who want to partake. Part of these sessions is mindfulness. Mindfulness exercises are simple. Find a comfortable place to sit, where you can find a balance between relaxation and alertness. Begin paying exclusive attention to your breath. Try to notice when your attention slips away, and gently refocus it on your breath.</p>
+
+<p>The point of this exercise is simple. Improve your attention by exercising it. Improve your awareness of your attention by exercising that.</p>
+
+<p>We do this for several minutes. I tend to shut my eyes. You can also try counting to see how long you can go without distraction. This is also a really good way to relax, and calm your mind.</p>
+
+<p><em>writing ceases for a week</em></p>
+
+<p><strong>Suddenly, it&rsquo;s Friday night, 5 days later.</strong> I&rsquo;ve been meaning to finish this post since Sunday, but have only just found the time. It&rsquo;s a week until the end of Dev Academy. If it feels like time has flown through these blog posts, then I feel that&rsquo;s only indicative of real life.</p>
+
+<p>We&rsquo;ve just started our final team projects yesterday. Richard, Taylor, Andrew and I are working on Skirmish. It&rsquo;s a multiplayer turn based war game (like Risk) played on Google Maps. Final projects are the most intense part of Dev Academy. We coded for around 11 hours today. Richard and Andrew were still going when I left. This is easily the largest and most complex application I&rsquo;ve been involved in building.</p>
+
+<p>We spent around 4 hours planning out our initial vision, user stories and architecture. Taylor (my flatmate and good friend) took the role of Architecture/Tech Lead. Since we want Skirmish to be multiplayer, we have to design the architecture with that in mind from the get go.</p>
+
+<p><img src="http://i.imgur.com/GhvdbPk.jpg" alt="Imgur" />
+<em>Skirmish Architecture Planning</em></p>
+
+<p>Richard pitched the idea for Skirmish, and took on the role of project lead. He lead us in developing user stories for requirements. We decided what we wanted to include for the MVP (minimum viable product) and we ended up with a fairly large project still. We want a functioning game with multiplayer, where players can capture other cities and fight. Ideally an MVP is as simple as possible, but even our smallest vision has a lot of moving pieces.</p>
+
+<p>We have until next Friday morning to do as much as we can on Skirmish. As always, learning comes first. It doesn&rsquo;t really matter if the product that comes out the other side is perfect, as long as you learned lots and had a good time. That said, we&rsquo;re working hard. Every member of our team will be working every day until it&rsquo;s over. Lots and lots of coding.</p>
+
+<p>You can check out the code for Skirmish on <a href="http://github.com/rantgames">Github</a>.</p>
+
+<p>I am barely awake at this point, so I figure I should just post this (good idea, right?). There is so much that could be written about that I have missed or forgotten. The last few weeks have been unique, to say the least. It&rsquo;s hard to express in English, so permit some Ruby code instead.</p>
+
+<pre><code>def how_have_i_been?
+  week_adjectives = [
+    'tiring',
+    'interesting',
+    'learning-y(?)',
+    'hectic',
+    'hard',
+    'inspiring',
+    'slightly crazy',
+    'intense',
+    'awesome'
+  ]
+
+  *all_but_last, last = week_adjectives
+
+  all_the_adjectives = "#{all_but_last.join ', '} and #{last}."
+
+  puts "The last couple of weeks have been #{all_the_adjectives}"
+end
+
+how_have_i_been?
+</code></pre>
+
+<p>Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
+
+<p><em>Yes Ben, I violated the Single Responsibility Principle for the sake of readability. Deal with it.</em></p>
+]]></content>
+  </entry>
+  
+</feed>

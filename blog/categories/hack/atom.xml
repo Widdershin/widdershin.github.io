@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hack | Nick Johnstone's Blog]]></title>
+  <link href="http://widdersh.in/blog/categories/hack/atom.xml" rel="self"/>
+  <link href="http://widdersh.in/"/>
+  <updated>2014-09-16T20:09:35+12:00</updated>
+  <id>http://widdersh.in/</id>
+  <author>
+    <name><![CDATA[Nick Johnstone]]></name>
+    <email><![CDATA[ncwjohnstone@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Failing to Forget]]></title>
+    <link href="http://widdersh.in/failing-to-forget/"/>
+    <updated>2014-09-05T21:55:28+12:00</updated>
+    <id>http://widdersh.in/failing-to-forget</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/25009451/ProgrammerInterrupted.png" alt="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" /></p>
+
+<p>I&rsquo;ve recently discovered a useful productivity hack. I found that when I sat down to code it would take me a while to get back into the swing of things. I would have to struggle to figure out where I should start and what to do.</p>
+
+<p>I&rsquo;ve started writing a failing test just before I leave my work for the day. When I get back to work the next day, I simply run my tests, fix the failure as usual and I&rsquo;m back into my rhythm.</p>
+
+<p>It only takes a minute or two to write a failing test but it saves me 10 to 15 minutes of trying to recover my mental state. <a href="mailto:ncwjohnstone@gmail.com">Let me know</a> if you find this useful, or if you have any useful hacks/tips of your own.</p>
+]]></content>
+  </entry>
+  
+</feed>
