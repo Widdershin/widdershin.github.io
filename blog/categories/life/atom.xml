@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Life | Nick Johnstone's Blog]]></title>
   <link href="http://widdersh.in/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://widdersh.in/"/>
-  <updated>2014-09-16T20:18:28+12:00</updated>
+  <updated>2014-09-16T20:32:01+12:00</updated>
   <id>http://widdersh.in/</id>
   <author>
     <name><![CDATA[Nick Johnstone]]></name>
@@ -179,30 +179,33 @@
 
 <p>I am barely awake at this point, so I figure I should just post this (good idea, right?). There is so much that could be written about that I have missed or forgotten. The last few weeks have been unique, to say the least. It&rsquo;s hard to express in English, so permit some Ruby code instead.</p>
 
-<pre><code>def how_have_i_been?
-  week_adjectives = [
-    'tiring',
-    'interesting',
-    'learning-y(?)',
-    'hectic',
-    'hard',
-    'inspiring',
-    'slightly crazy',
-    'intense',
-    'awesome'
-  ]
+<p>```
+def how_have_i_been?
+  week_adjectives = [</p>
 
-  *all_but_last, last = week_adjectives
-
-  all_the_adjectives = "#{all_but_last.join ', '} and #{last}."
-
-  puts "The last couple of weeks have been #{all_the_adjectives}"
-end
-
-how_have_i_been?
+<pre><code>'tiring',
+'interesting',
+'learning-y(?)',
+'hectic',
+'hard',
+'inspiring',
+'slightly crazy',
+'intense',
+'awesome'
 </code></pre>
 
-<p>Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
+<p>  ]</p>
+
+<p>  *all_but_last, last = week_adjectives</p>
+
+<p>  all_the_adjectives = &ldquo;#{all_but_last.join &lsquo;, &rsquo;} and #{last}.&rdquo;</p>
+
+<p>  puts &ldquo;The last couple of weeks have been #{all_the_adjectives}&rdquo;
+end</p>
+
+<p>how_have_i_been?
+```
+Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
 
 <p><em>Yes Ben, I violated the Single Responsibility Principle for the sake of readability. Deal with it.</em></p>
 ]]></content>
