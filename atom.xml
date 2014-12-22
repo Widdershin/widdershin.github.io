@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Dev-academy | Nick Johnstone's Blog]]></title>
-  <link href="http://widdersh.in/blog/categories/dev-academy/atom.xml" rel="self"/>
+  <title><![CDATA[Nick Johnstone's Blog]]></title>
+  <link href="http://widdersh.in/atom.xml" rel="self"/>
   <link href="http://widdersh.in/"/>
   <updated>2014-12-23T10:04:45+13:00</updated>
   <id>http://widdersh.in/</id>
@@ -12,6 +12,152 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Random Number Gods]]></title>
+    <link href="http://widdersh.in/the-random-number-gods/"/>
+    <updated>2014-12-10T18:44:10+13:00</updated>
+    <id>http://widdersh.in/the-random-number-gods</id>
+    <content type="html"><![CDATA[<p>When I tell people that <a href="https://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a> has inspired me to write a blog post about privilege, I am generally met with a resounding bu-wha?</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a> is a simple game. You play as an adventurer, descending the 27 floors of a dungeon, collecting gold and loot, fighting monsters and avoiding traps, with the goal of retrieving the Amulet of Yendor and returning to the surface.</p>
+
+<p>Rogue had a few things that made it different from many other games. The first, and the most important, is that when your character dies, you&rsquo;re dead forever. You&rsquo;re presented with a tombstone and some information about your life, but there&rsquo;s no respawn button.</p>
+
+<p>Another crucial part of Rogue is what is known as Procedural Content Generation. In English, that means that the dungeons are new every time you play. Every character you play starts surrounded by different walls, with different risks, rewards, and horrible enemies awaiting.</p>
+
+<p>The third essential part of Rogue is that it is very difficult to win. It takes hundreds of attempts, for most players, before they first reach the bottom of the dungeon, retrieve the amulet, and &ldquo;ascend&rdquo; to the surface. There are many ways to die in Rogue, and a typical player will experience most of them when they &ldquo;ascend&rdquo;.</p>
+
+<p>In my mind, Rogue draws some striking parallels to real life. Your actions have serious consequences. It only takes a single mistake to cause your death. A seemingly strong character can easily get overwhelmed if you make the wrong call.</p>
+
+<p>Like life, you are at the mercy of your surroundings. To succeed, you have to fight and make do with what is available to you, but it&rsquo;s not always enough. There comes a moment in (almost) every game where you find your back against the wall and meet your maker.</p>
+
+<p>It was thinking about life in terms of Rogue when I had an &lsquo;aha&rsquo; moment as to how I could really phrase my feelings around privilege.</p>
+
+<p>My life has been going pretty well recently. At the same time, I see people near and far facing hardship and sorrow. It makes me wonder what has led to our difference in circumstances.</p>
+
+<p>I know that some people like to think that those successful in life fought harder, that hard work and perseverance can overcome any obstacle. While that might play a part, it seems impossible to deny that your start in life makes all the difference.</p>
+
+<p>As an adventurer in Rogue, what you find on the first few floors of the dungeon will have a huge impact on your fate. If you&rsquo;re lucky enough to find a good set of armor or the right potions on the first floor, you&rsquo;ll probably breeze through the early dungeon. You will survive some situations simply because you got lucky and had what others didn&rsquo;t.</p>
+
+<p>In my mind, it&rsquo;s the same &ndash; to have parents that teach you to read before you start school. I was lucky enough to have parents that both taught me to learn and nourished the spark of curiosity inside of me. That seemingly small gift early on has had huge impacts throughout my life. If not for that, probably, you wouldn&rsquo;t be reading my blog.</p>
+
+<p>I was extremely privileged to be born where and when I was, and to whom. I think it&rsquo;s important to consider that not everyone is so fortunate.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Politics and Anarchy]]></title>
+    <link href="http://widdersh.in/politics-and-anarchy/"/>
+    <updated>2014-09-16T19:25:45+12:00</updated>
+    <id>http://widdersh.in/politics-and-anarchy</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been thinking a lot about politics recently.</p>
+
+<p>For most of my life, so far, I&rsquo;ve thought anarchists were delusional. A world without government? You&rsquo;d have to be crazy to think that&rsquo;s a good idea. In my mind, anarchists wanted to inflict chaos upon society.</p>
+
+<p>It recently occurred to me that anarchists aren&rsquo;t crazy, just optimistic. I feel anarchy is about the belief that humanity might be capable of living together without <em>needing</em> a strong system of governance. I&rsquo;ve started to think anarchy might be about hope, not chaos and fear as I previously thought.</p>
+
+<p>This realization came at a useful time. The election is happening soon, and I&rsquo;ve been watching my friends and acquaintances discuss politics on Facebook. The most disheartening thing to me is the division between supporters of the different parties. I&rsquo;ve seen people removing each other as internet friends, simply because they support a different party. To me, this speaks of an unwillingness to consider and understand why other people think the way they do.</p>
+
+<p>All of my beliefs and opinions exist simply because they were what made sense to me at the time. When you drive away from people who think differently from you, you limit your view of the world. In effect, you create a feedback loop that supports your views (the technical internet term is a &lsquo;circlejerk&rsquo;).</p>
+
+<p>I think it&rsquo;s important that we try and break out of the echo chamber of opinions we&rsquo;ve built and have some real discussions. Everyone you meet has had different experiences and will perceive things in different ways.</p>
+
+<p>My advice to you is simple. Strive to see the world through the eyes of others. You might find something you like.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Failing to Forget]]></title>
+    <link href="http://widdersh.in/failing-to-forget/"/>
+    <updated>2014-09-05T21:55:28+12:00</updated>
+    <id>http://widdersh.in/failing-to-forget</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/25009451/ProgrammerInterrupted.png" alt="http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/" /></p>
+
+<p>I&rsquo;ve recently discovered a useful productivity hack. I found that when I sat down to code it would take me a while to get back into the swing of things. I would have to struggle to figure out where I should start and what to do.</p>
+
+<p>I&rsquo;ve started writing a failing test just before I leave my work for the day. When I get back to work the next day, I simply run my tests, fix the failure as usual and I&rsquo;m back into my rhythm.</p>
+
+<p>It only takes a minute or two to write a failing test but it saves me 10 to 15 minutes of trying to recover my mental state. <a href="mailto:ncwjohnstone@gmail.com">Let me know</a> if you find this useful, or if you have any useful hacks/tips of your own.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hills of All Sorts]]></title>
+    <link href="http://widdersh.in/hills-of-all-sorts/"/>
+    <updated>2014-08-18T19:26:23+12:00</updated>
+    <id>http://widdersh.in/hills-of-all-sorts</id>
+    <content type="html"><![CDATA[<p>You should watch this video:</p>
+
+<iframe width="670" height="376" src="//www.youtube.com/embed/Rj7NEKfjtsc" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Powershop</strong></p>
+
+<p>Earlier this year, I set myself a goal. By the end of 2014, I would be living in Wellington making cool things for a living. I think I&rsquo;ve done it.</p>
+
+<p>I started working at Powershop last week. Powershop is (as the name says) a shop for power.</p>
+
+<p>I was quite fortunate in my job hunting, and ended up with four different offers from Wellington software companies to choose from.</p>
+
+<p>I chose Powershop because they have a fantastic company culture, put out quality products, and treat their employees well. They also met my fixed requirement of having a ping pong table. Everyone I&rsquo;ve gotten to know there, so far, has been really cool. There is a healthy diversity of backgrounds and ideas at Powershop, which I really value.</p>
+
+<p>As a new developer, you join the Dev Train, a special team where you just learn and improve. New devs spend up to three months working on games and other interesting projects to hone their skills before being consigned into production code.</p>
+
+<!--more-->
+
+
+<p>I&rsquo;ve been tasked with making a digital version of the board game, Ticket To Ride. I&rsquo;ve taken the opportunity to try some new things (like <a href="https://github.com/Widdershin/learning/issues/1">BDD with Cucumber</a>), and I&rsquo;m learning a lot. It&rsquo;s such a great way to start a job.</p>
+
+<p>I&rsquo;ve been immensely enjoying my first few days of working at Powershop. I&rsquo;m also really stoked that they hired another Dev Academy graduate, my good friend Tim. It&rsquo;s cool that I get to continue working and learning with him.</p>
+
+<p><strong>Depression and Mental Illness</strong></p>
+
+<p>Lately, I&rsquo;ve been thinking quite a lot about depression and mental illness. I wrote a post recently about <a href="http://widdersh.in/on-being-down/">being down, and how life gets better</a>. Someone who happened to read it sent me an email, with a talk from Ruby Midwest by a developer with ADD and bipolar syndrome.</p>
+
+<iframe width="670" height="376" src="//www.youtube.com/embed/yFIa-Mc2KSk" frameborder="0" allowfullscreen></iframe>
+
+
+<p>It hit home a bit. I&rsquo;ve never been tested for any mental illness, but now I think I will go talk to someone about it. I&rsquo;ve often had trouble reigning in my emotions and motivation, and the more I think about it the more I wonder.</p>
+
+<p>It&rsquo;s scary to talk about mental illness since society seems to still refuse to really open that door. I think that Depression and Co. live closer to home than people might realize. Just last week, the internet/world was ablaze with the news of Robin William&rsquo;s death, which appears to have been a suicide. To me, this is tragic and slightly heartbreaking. What scares me the most is that anyone I know could be feeling suicidal, which I probably have no idea.</p>
+
+<p>I think that we need to talk more about mental illness, both in society and within the circle of friends and family. I admire my coworker Chelsea, and <a href="http://chelz.geek.nz/">her blog</a>. I was stunned and inspired to see her honesty about her struggles with depression and suicidal thoughts.</p>
+
+<p>I would love to <a href="mailto:ncwjohnstone@gmail.com">hear your thoughts</a> on any of this. If this section makes you feel uncomfortable, that&rsquo;s fine, it makes me feel a bit uncomfortable too.</p>
+
+<p><strong>butterdb</strong></p>
+
+<p>I was really delighted last Saturday, after someone <a href="https://news.ycombinator.com/item?id=8123450">posted a library</a> I had made (<a href="https://github.com/Widdershin/butterdb">butterdb</a>) on <a href="https://news.ycombinator.com/">Hacker News</a> and it got up to number 3 and stayed there for a while. butterdb is a library for Python that lets you work with data in Google Spreadsheets as objects. It&rsquo;s like an ORM.</p>
+
+<p>For those who aren&rsquo;t familiar with Hacker News, I&rsquo;ll explain why this made me giggle like a child. Hacker News is the forum section of <a href="http://www.ycombinator.com/">ycombinator</a>, a well renowned startup incubator. If your tech business gets to the top, you have either done very well or very badly.</p>
+
+<p>I&rsquo;m excited because it appears that people actually use butterdb now. I&rsquo;ve got a whole load of features to implement, and I plan on rewriting the entire library at some point this month. Mostly, I just wanted to brag a bit :).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[On Being Down]]></title>
+    <link href="http://widdersh.in/on-being-down/"/>
+    <updated>2014-07-28T23:43:51+12:00</updated>
+    <id>http://widdersh.in/on-being-down</id>
+    <content type="html"><![CDATA[<p><em>I originally posted this on Facebook, but I thought I would repost it here for posterity.</em></p>
+
+<p>Someone recently told me something that made me think a bit. &lsquo;It gets better&rsquo;.</p>
+
+<p>I&rsquo;ve heard that a bit but I&rsquo;d never really about how it applied to me. I thought about how the last few years have been for me.</p>
+
+<p>The last year or so of high school was pretty tough in terms of my emotional stability, and I found it really difficult to talk about with other people. Sometimes I would just feel down, for up to weeks at a time. I wasn&rsquo;t sure if I was just being lazy, or if this was just how things were.</p>
+
+<p>It was even worse in that nothing was really wrong with my life. You feel even worse for feeling down, when you have every reason to be up.</p>
+
+<p>I wanted to post this because I&rsquo;ve only recently started thinking that many other people actually go through this. Someone said something to me, so I figure I might pass it on. If you are having a tough time, if you can&rsquo;t shrug feeling down, it honestly gets better.</p>
+
+<p>My life has been much better recently. I&rsquo;ve been in a much better place emotionally, and it&rsquo;s easier to feel good. I&rsquo;m working towards happiness being my default state.</p>
+
+<p>I know this is definitely a bit weird to post on Facebook, but I think it&rsquo;s important to talk about. Hit me up if you want to chat about it (especially about controlling emotions), or comment.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dev Academy - the End]]></title>
@@ -43,7 +189,7 @@
 
 <p>I spent last weekend down in Christchurch. It was really nice to get to catch up with my friends and family (and pets), and to sleep a lot. It helped me to unwind from Dev Academy, and to get back to reality a bit.</p>
 
-<p>I hope this post ties up the end of my Dev Academy story a little bit. Thanks to anyone who has been a reader of my blog so far. If you want to read from the start, check out the <a href="/blog/archives">archives</a> I plan on keeping it up. I mostly feel like writing  about technology, education and life, but we will see I suppose.</p>
+<p>I hope this post ties up the end of my Dev Academy story a little bit. Thanks to anyone who has been a reader of my blog so far. If you want to read from the start, check out the <a href="http://widdersh.in/blog/archives">archives</a> I plan on keeping it up. I mostly feel like writing  about technology, education and life, but we will see I suppose.</p>
 
 <p>Let me know if you have any feedback or thoughts.</p>
 ]]></content>
@@ -104,33 +250,51 @@
 
 <p>I am barely awake at this point, so I figure I should just post this (good idea, right?). There is so much that could be written about that I have missed or forgotten. The last few weeks have been unique, to say the least. It&rsquo;s hard to express in English, so permit some Ruby code instead.</p>
 
-<p>```
-def how_have_i_been?
-  week_adjectives = [</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>def how_have_i_been?
+</span><span class='line'>  week_adjectives = [
+</span><span class='line'>    'tiring',
+</span><span class='line'>    'interesting',
+</span><span class='line'>    'learning-y(?)',
+</span><span class='line'>    'hectic',
+</span><span class='line'>    'hard',
+</span><span class='line'>    'inspiring',
+</span><span class='line'>    'slightly crazy',
+</span><span class='line'>    'intense',
+</span><span class='line'>    'awesome'
+</span><span class='line'>  ]
+</span><span class='line'>
+</span><span class='line'>  *all_but_last, last = week_adjectives
+</span><span class='line'>
+</span><span class='line'>  all_the_adjectives = "#{all_but_last.join ', '} and #{last}."
+</span><span class='line'>
+</span><span class='line'>  puts "The last couple of weeks have been #{all_the_adjectives}"
+</span><span class='line'>end
+</span><span class='line'>
+</span><span class='line'>how_have_i_been?</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>'tiring',
-'interesting',
-'learning-y(?)',
-'hectic',
-'hard',
-'inspiring',
-'slightly crazy',
-'intense',
-'awesome'
-</code></pre>
 
-<p>  ]</p>
-
-<p>  *all_but_last, last = week_adjectives</p>
-
-<p>  all_the_adjectives = &ldquo;#{all_but_last.join &lsquo;, &rsquo;} and #{last}.&rdquo;</p>
-
-<p>  puts &ldquo;The last couple of weeks have been #{all_the_adjectives}&rdquo;
-end</p>
-
-<p>how_have_i_been?
-```
-Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
+<p>Outputs: &ldquo;The last couple of weeks have been tiring, interesting, learning-y(?), hectic, hard, inspiring, slightly crazy, intense and awesome.&rdquo;</p>
 
 <p><em>Yes Ben, I violated the Single Responsibility Principle for the sake of readability. Deal with it.</em></p>
 ]]></content>
@@ -337,6 +501,36 @@ Hey man, That is actually really cool! I took the time and watched the whole vid
 <p>There are a few other things I meant to write about in this post, like concentration and breakout sessions, but I&rsquo;ve already subjected my readers to quite a lot, so I think I&rsquo;ll save those for some other post.</p>
 
 <p>Until next time&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Academy - Week 1]]></title>
+    <link href="http://widdersh.in/dev-academy-week-1/"/>
+    <updated>2014-05-14T17:08:52+12:00</updated>
+    <id>http://widdersh.in/dev-academy-week-1</id>
+    <content type="html"><![CDATA[<p>Let me set the scene. It&rsquo;s the second day at Enspiral Dev Academy, and I&rsquo;m lounging in the &lsquo;Ctrl&rsquo; space. It&rsquo;s 8pm, and I&rsquo;ve been here since 8.45am. I&rsquo;ll try to give you an introduction to what life has been like at EDA so far.</p>
+
+<p><img src="http://i.imgur.com/fg6OXci.jpg" alt="the view from the alt room" /></p>
+
+<p>Dev Academy is the first ever coding bootcamp in New Zealand, and this is the first time the program has been run. Based off of San Francisco&rsquo;s Dev Bootcamp program, Dev Academy tries to take people at all programming skill levels, and help them learn as much as possible about webdev in 9 weeks. It&rsquo;s an ambitious undertaking, but I think the graduates might speak for themselves. We&rsquo;ll see.</p>
+
+<p>So far in the last two days we&rsquo;ve covered a myriad of material ranging from search algorithms and recursion to a &ldquo;deep dive&rdquo; session about sexism and inequality. EDA has a focus on a well rounded education, and is devoting a good amount of time to what they call Engineering Empathy. That&rsquo;s a stream that focuses on the emotional intelligence side of things. If you&rsquo;re interested in that (and you should be), I would suggest checking out <a href="http://recode.net/2014/04/30/engineering-empathy-tears-and-fears-at-dev-bootcamp/">Karim Bishay&rsquo;s intro video</a> on the subject.</p>
+
+<!--more-->
+
+
+<p>I&rsquo;ve been programming for around 4 years now, maybe 1.5 seriously, and I&rsquo;m one of the more experienced members of the cohort. Most of my fellow boots (meaning cohort members, a term borrowed from Dev Bootcamp) hadn&rsquo;t even touched programming before the introductory phase.</p>
+
+<p>It&rsquo;s astounding how quickly everyone is picking up the material. Dev Academy has a huge emphasis on pair programming and TDD, and the benefits show. We&rsquo;re rapidly plowing through the material that a first year computer science course covers, and nobody is missing a beat.</p>
+
+<p>The hours might seem like insanity (yesterday was 11 hours for me, today almost 12), and I thought so too before I arrived. I swore that I wouldn&rsquo;t be doing anything more than a 10 hour day, but the time flies when you&rsquo;re hard at work solving interesting problems with interesting people. There&rsquo;s no obligation to stay past 8 or 9 hours, but the people here are passionate about their learning, and the course material is interesting enough that both nights I&rsquo;ve looked up only to find it dark and past 7 without noticing.</p>
+
+<p>It&rsquo;s not all been frantic coding though. We&rsquo;re taking part in bi-weekly yoga sessions, run by Alanna from Enspiral. I definitely enjoyed our first session today, it&rsquo;s a really good way to take a break and let your mind and body relax.</p>
+
+<p>So far anyway, Dev Academy has met and surpassed my expectations. The space is amazing, the people inspiring and the staff supportive and experienced. All I can say is that I can&rsquo;t wait for day 3.</p>
+
+<p>More to come&hellip;</p>
 ]]></content>
   </entry>
   
