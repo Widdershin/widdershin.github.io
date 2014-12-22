@@ -1,0 +1,22 @@
+
+.subscribe {
+  background: $header-bg;
+  text-align: center;
+
+  .show-subscribe-form {
+    background: $header-bg;
+    @extend .sans;
+    font-weight: 1em;
+    a {
+      color: $title_color;
+    }
+    margin: 10px;
+  }
+
+  .subscribe-form {
+    width: 50%;
+    margin: auto;
+  }
+  padding: 20px;
+}
+
