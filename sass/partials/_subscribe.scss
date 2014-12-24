@@ -16,6 +16,9 @@
   .subscribe-form {
     width: 50%;
     margin: auto;
+    padding: 10px;
+
+    @extend .sans;
   }
   padding: 20px;
 }
