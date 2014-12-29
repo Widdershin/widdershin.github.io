@@ -1,18 +1,50 @@
 <script type="text/javascript">
   $(function() {
+    var formIsHidden = true;
+
+    var animationIsPlaying = false;
+    var animationSpeed = 300;
+
     var $showSubscribeLink = $('.show-subscribe-form');
     var $subscribeForm = $('.subscribe-form');
     var originalLinkMargin = parseInt($showSubscribeLink.css('margin-bottom'));
+    var expandedLinkMargin = originalLinkMargin + $subscribeForm.height();
+
+    function showSubscribeForm() {
+      formIsHidden = false;
+      animationIsPlaying = true;
+
+      $showSubscribeLink.animate({'margin-bottom': expandedLinkMargin}, animationSpeed, function () {
+        $showSubscribeLink.css({'margin-bottom': originalLinkMargin});
+        $subscribeForm.fadeIn(animationSpeed, function () {
+          animationIsPlaying = false;
+        });
+      });
+    }
+
+    function hideSubscribeForm() {
+      formIsHidden = true;
+      animationIsPlaying = true;
+
+      $subscribeForm.fadeOut(animationSpeed, function () {
+        $showSubscribeLink.css({'margin-bottom': expandedLinkMargin});
+        $showSubscribeLink.animate({'margin-bottom': originalLinkMargin}, animationSpeed, function () {
+          animationIsPlaying = false;
+        });
+      });
+    }
 
     $showSubscribeLink.click(function () {
-      if ($subscribeForm.css('display') != 'none') {
+      if (animationIsPlaying) {
         return;
       }
 
-      $showSubscribeLink.animate({'margin-bottom': originalLinkMargin + $subscribeForm.height()}, 'slow', function () {
-        $showSubscribeLink.css({'margin-bottom': originalLinkMargin});
-        $subscribeForm.fadeIn();
-      });
+      if (formIsHidden) {
+        showSubscribeForm();
+      } else {
+        hideSubscribeForm();
+      }
+
     });
   });
 </script>
