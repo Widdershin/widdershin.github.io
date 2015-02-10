@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Nick Johnstone's Blog</title>
+  <title>Controlling Sonic Pi From Vim (or Anywhere Else) - Nick Johnstone's Blog</title>
   <meta name="author" content="Nick Johnstone">
 
   
-  <meta name="description" content="Blog Archive 2015 Controlling Sonic Pi From Vim (or Anywhere Else)
-Feb 10 2015 programming 2014 All Hail Our New Robotic Overlords
-Dec 30 2014 &hellip;">
+  <meta name="description" content="Last week I discovered Sonic Pi. I watched Repl Electric perform live at RubyConf AU. He gave a brief demo of Sonic Pi, a tool for progamming live &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Dec 30 2014 &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://widdersh.in/blog/archives">
+  <link rel="canonical" href="http://widdersh.in/controlling-sonic-pi-from-vim-or-anywhere-else">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Nick Johnstone's Blog" type="application/atom+xml">
@@ -161,184 +159,213 @@ Dec 30 2014 &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Controlling Sonic Pi From Vim (or Anywhere Else)</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-10T23:13:08+13:00" pubdate data-updated="true">Feb 10<span>th</span>, 2015</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Last week I discovered Sonic Pi. I watched <a href="http://vimeo.com/117516352">Repl Electric</a> perform live at RubyConf AU. He gave a brief demo of Sonic Pi, a tool for progamming live music with Ruby. Instantly my eyes lit up. It was the instrument I&rsquo;d always wanted.</p>
 
-  
-  <h2>2015</h2>
+<p>I tried it out the next day. It has a nice interface, but I&rsquo;m used to vim and living in the terminal. I googled &ldquo;vim sonic pi&rdquo;, but there was nothing I could see. I hunted round for a bit, but I couldn&rsquo;t find a command line interface either.</p>
 
-<article>
-  
-<h1><a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a></h1>
-<time datetime="2015-02-10T23:13:08+13:00" pubdate><span class='month'>Feb</span> <span class='day'>10</span> <span class='year'>2015</span></time>
+<p>It was <a href="http://github.com/samaaron">Sam Aaron</a>  (the creator of Sonic Pi) who pointed me in the right direction, a blog post entitled <a href="https://joearms.github.io/2015/01/05/Connecting-Erlang-to-Sonic-Pi.html">Connecting Erlang to Sonic Pi</a>. It turned out that there was an undocumented method of controlling Sonic Pi externally.</p>
 
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/programming/'>programming</a></span>
+<p>The secret:</p>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;osc-ruby&#39;</span>
+</span><span class='line'><span class="n">code</span> <span class="o">=</span> <span class="s1">&#39;play 50&#39;</span> <span class="c1"># or whatever you want</span>
+</span><span class='line'><span class="ss">OSC</span><span class="p">:</span><span class="ss">:Client</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span> <span class="mi">4557</span><span class="p">)</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="s1">&#39;/run-code&#39;</span><span class="p">,</span> <span class="n">code</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
 
-</article>
 
+<p>That code sends an OSC message (<a href="http://osw.sourceforge.net/html/osc.htm">Open Sound Control</a>) to Sonic Pi, instructing it to run the given code just as if you had typed it in.</p>
 
+<p>So I put together a simple command line interface to use Sonic Pi from the terminal. <a href="https://github.com/Widdershin/sonic-pi-cli">sonic-pi-cli</a>. I packaged it up as a gem, and released it into the wild.</p>
 
-  
-  <h2>2014</h2>
+<p>You can install it with <code>gem install sonic-pi-cli</code> and then run music with <code>sonic_pi play 60</code> or <code>echo 'sample :loop_amen' | sonic_pi</code>.</p>
 
-<article>
-  
-<h1><a href="/all-hail-our-new-robotic-overlords-my-vision-for-new-zealand/">All Hail Our New Robotic Overlords</a></h1>
-<time datetime="2014-12-30T15:08:48+13:00" pubdate><span class='month'>Dec</span> <span class='day'>30</span> <span class='year'>2014</span></time>
+<p>I was really happy to have a working CLI for Sonic Pi. I quickly whipped up some vim binds so I could use Sonic Pi right from my editor.</p>
 
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/essays/'>essays</a></span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='vim'><span class='line'><span class="nb">noremap</span> <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">r</span> :<span class="k">silent</span> <span class="k">w</span> <span class="p">!</span>sonic_pi<span class="p">&lt;</span>CR<span class="p">&gt;</span>
+</span><span class='line'><span class="nb">noremap</span> <span class="p">&lt;</span>leader<span class="p">&gt;</span>S :<span class="k">call</span> system<span class="p">(</span><span class="s2">&quot;sonic_pi stop&quot;</span><span class="p">)&lt;</span>CR<span class="p">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-</article>
+<p>You can add these commands to your <code>.vimrc</code>, and voila, Sonic Pi in your vim. I use the spacebar as my leader key, so these shortcuts feel a lot like using Sonic Pi.</p>
 
+<p>Now, the really amazing part comes. Less than a day since I first released <a href="https://github.com/Widdershin/sonic-pi-cli">sonic-pi-cli</a> on <a href="https://rubygems.org/gems/sonic-pi-cli">RubyGems</a>, a few awesome projects have already put it to use.</p>
 
+<p><a href="http://github.com/rbnpi">Robin Newman</a> has used it to control Sonic Pi from his phone with a Raspberry Pi and telegram.</p>
 
-<article>
-  
-<h1><a href="/the-random-number-gods/">The Random Number Gods</a></h1>
-<time datetime="2014-12-10T18:44:10+13:00" pubdate><span class='month'>Dec</span> <span class='day'>10</span> <span class='year'>2014</span></time>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9o-DY8qrm44" frameborder="0" allowfullscreen></iframe>
 
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/essays/'>essays</a>, <a class='category' href='/blog/categories/life/'>life</a></span>
 
+<p><a href="https://github.com/dermusikman">dermusikman</a> immediately started working on a vim plugin to bring as many features of Sonic Pi to vim as he can, <a href="https://github.com/dermusikman/sonicpi.vim">sonicpi.vim</a>.</p>
 
-</article>
+<p>At the moment, it contains the shortcuts from above, as well as auto completion for samples and the like, and the use of the .pi file format, with Ruby highlighting.</p>
 
+<p>I&rsquo;m absolutely astounded by the awesome work that has been put out so rapidly by others in the community. I really love this aspect of open source. There&rsquo;s a good sense of collaboration through Github issues and <a href="https://gitter.im/samaaron/sonic-pi">gitter</a>.</p>
 
-
-<article>
-  
-<h1><a href="/politics-and-anarchy/">Politics and Anarchy</a></h1>
-<time datetime="2014-09-16T19:25:45+12:00" pubdate><span class='month'>Sep</span> <span class='day'>16</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/essays/'>essays</a>, <a class='category' href='/blog/categories/life/'>life</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/failing-to-forget/">Failing to Forget</a></h1>
-<time datetime="2014-09-05T21:55:28+12:00" pubdate><span class='month'>Sep</span> <span class='day'>05</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/hack/'>hack</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/hills-of-all-sorts/">Hills of All Sorts</a></h1>
-<time datetime="2014-08-18T19:26:23+12:00" pubdate><span class='month'>Aug</span> <span class='day'>18</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/depression/'>depression</a>, <a class='category' href='/blog/categories/essays/'>essays</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/skating/'>skating</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/on-being-down/">On Being Down</a></h1>
-<time datetime="2014-07-28T23:43:51+12:00" pubdate><span class='month'>Jul</span> <span class='day'>28</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/depression/'>depression</a>, <a class='category' href='/blog/categories/essays/'>essays</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-the-end/">Dev Academy - the End</a></h1>
-<time datetime="2014-07-25T20:29:48+12:00" pubdate><span class='month'>Jul</span> <span class='day'>25</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-week-5-through-8-subtitle-undefined/">Dev Academy - Week 5 Through 8: Subtitle Undefined</a></h1>
-<time datetime="2014-07-04T23:45:00+12:00" pubdate><span class='month'>Jul</span> <span class='day'>04</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/essays/'>essays</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-week-3-and-4-a-new-era/">Dev Academy - Week 3 &amp; 4: A New Era</a></h1>
-<time datetime="2014-06-10T23:43:29+12:00" pubdate><span class='month'>Jun</span> <span class='day'>10</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-week-2-electric-boogaloo/">Dev Academy - Week 2: Electric Boogaloo</a></h1>
-<time datetime="2014-05-27T00:05:29+12:00" pubdate><span class='month'>May</span> <span class='day'>27</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-end-of-week-1/">Dev Academy - End of Week 1</a></h1>
-<time datetime="2014-05-17T21:33:52+12:00" pubdate><span class='month'>May</span> <span class='day'>17</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/dev-academy-week-1/">Dev Academy - Week 1</a></h1>
-<time datetime="2014-05-14T17:08:52+12:00" pubdate><span class='month'>May</span> <span class='day'>14</span> <span class='year'>2014</span></time>
-
-  <span class="categories"> <span><i class="fa fa-tag icon-color"></i> </span><a class='category' href='/blog/categories/dev-academy/'>dev-academy</a>, <a class='category' href='/blog/categories/life/'>life</a>, <a class='category' href='/blog/categories/programming/'>programming</a></span>
-
-
-</article>
-
+<p>I&rsquo;m looking forward to contributing more to the Sonic Pi community in future.</p>
 </div>
 
-  
-</article>
 
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nick Johnstone</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-10T23:13:08+13:00" pubdate data-updated="true">Feb 10<span>th</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
 </div>
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/all-hail-our-new-robotic-overlords-my-vision-for-new-zealand/" title="Previous Post: All hail our new robotic overlords">&laquo; All hail our new robotic overlords</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+<!-- 
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/all-hail-our-new-robotic-overlords-my-vision-for-new-zealand/">All Hail Our New Robotic Overlords</a>
+      </li>
+    
+      <li class="post">
+        <a href="/the-random-number-gods/">The Random Number Gods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/politics-and-anarchy/">Politics and Anarchy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/failing-to-forget/">Failing to Forget</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Widdershin">@Widdershin</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Widdershin',
+            count: 7,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/NickJohnstoneNZ?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+ -->
 
     </div>
   </div>
@@ -356,7 +383,10 @@ Dec 30 2014 &hellip;">
       var disqus_shortname = 'widdershin';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://widdersh.in/controlling-sonic-pi-from-vim-or-anywhere-else/';
+        var disqus_url = 'http://widdersh.in/controlling-sonic-pi-from-vim-or-anywhere-else/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -9,7 +9,7 @@
   <meta name="author" content="Nick Johnstone">
 
   
-  <meta name="description" content="When I tell people that Rogue has inspired me to write a blog post about privilege, I am generally met with a resounding bu-wha? Rogue is a simple &hellip;">
+  <meta name="description" content="Last week I discovered Sonic Pi. I watched Repl Electric perform live at RubyConf AU. He gave a brief demo of Sonic Pi, a tool for progamming live &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -160,6 +160,152 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-10T23:13:08+13:00" pubdate data-updated="true">Feb 10<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Last week I discovered Sonic Pi. I watched <a href="http://vimeo.com/117516352">Repl Electric</a> perform live at RubyConf AU. He gave a brief demo of Sonic Pi, a tool for progamming live music with Ruby. Instantly my eyes lit up. It was the instrument I&rsquo;d always wanted.</p>
+
+<p>I tried it out the next day. It has a nice interface, but I&rsquo;m used to vim and living in the terminal. I googled &ldquo;vim sonic pi&rdquo;, but there was nothing I could see. I hunted round for a bit, but I couldn&rsquo;t find a command line interface either.</p>
+
+<p>It was <a href="http://github.com/samaaron">Sam Aaron</a>  (the creator of Sonic Pi) who pointed me in the right direction, a blog post entitled <a href="https://joearms.github.io/2015/01/05/Connecting-Erlang-to-Sonic-Pi.html">Connecting Erlang to Sonic Pi</a>. It turned out that there was an undocumented method of controlling Sonic Pi externally.</p>
+
+<p>The secret:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;osc-ruby&#39;</span>
+</span><span class='line'><span class="n">code</span> <span class="o">=</span> <span class="s1">&#39;play 50&#39;</span> <span class="c1"># or whatever you want</span>
+</span><span class='line'><span class="ss">OSC</span><span class="p">:</span><span class="ss">:Client</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span> <span class="mi">4557</span><span class="p">)</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="s1">&#39;/run-code&#39;</span><span class="p">,</span> <span class="n">code</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That code sends an OSC message (<a href="http://osw.sourceforge.net/html/osc.htm">Open Sound Control</a>) to Sonic Pi, instructing it to run the given code just as if you had typed it in.</p>
+
+<p>So I put together a simple command line interface to use Sonic Pi from the terminal. <a href="https://github.com/Widdershin/sonic-pi-cli">sonic-pi-cli</a>. I packaged it up as a gem, and released it into the wild.</p>
+
+<p>You can install it with <code>gem install sonic-pi-cli</code> and then run music with <code>sonic_pi play 60</code> or <code>echo 'sample :loop_amen' | sonic_pi</code>.</p>
+
+<p>I was really happy to have a working CLI for Sonic Pi. I quickly whipped up some vim binds so I could use Sonic Pi right from my editor.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='vim'><span class='line'><span class="nb">noremap</span> <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">r</span> :<span class="k">silent</span> <span class="k">w</span> <span class="p">!</span>sonic_pi<span class="p">&lt;</span>CR<span class="p">&gt;</span>
+</span><span class='line'><span class="nb">noremap</span> <span class="p">&lt;</span>leader<span class="p">&gt;</span>S :<span class="k">call</span> system<span class="p">(</span><span class="s2">&quot;sonic_pi stop&quot;</span><span class="p">)&lt;</span>CR<span class="p">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You can add these commands to your <code>.vimrc</code>, and voila, Sonic Pi in your vim. I use the spacebar as my leader key, so these shortcuts feel a lot like using Sonic Pi.</p>
+
+<p>Now, the really amazing part comes. Less than a day since I first released <a href="https://github.com/Widdershin/sonic-pi-cli">sonic-pi-cli</a> on <a href="https://rubygems.org/gems/sonic-pi-cli">RubyGems</a>, a few awesome projects have already put it to use.</p>
+
+<p><a href="http://github.com/rbnpi">Robin Newman</a> has used it to control Sonic Pi from his phone with a Raspberry Pi and telegram.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9o-DY8qrm44" frameborder="0" allowfullscreen></iframe>
+
+
+<p><a href="https://github.com/dermusikman">dermusikman</a> immediately started working on a vim plugin to bring as many features of Sonic Pi to vim as he can, <a href="https://github.com/dermusikman/sonicpi.vim">sonicpi.vim</a>.</p>
+
+<p>At the moment, it contains the shortcuts from above, as well as auto completion for samples and the like, and the use of the .pi file format, with Ruby highlighting.</p>
+
+<p>I&rsquo;m absolutely astounded by the awesome work that has been put out so rapidly by others in the community. I really love this aspect of open source. There&rsquo;s a good sense of collaboration through Github issues and <a href="https://gitter.im/samaaron/sonic-pi">gitter</a>.</p>
+
+<p>I&rsquo;m looking forward to contributing more to the Sonic Pi community in future.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/all-hail-our-new-robotic-overlords-my-vision-for-new-zealand/">All Hail Our New Robotic Overlords</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-30T15:08:48+13:00" pubdate data-updated="true">Dec 30<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>We humans spend a lot of time working. If you’re lucky, you only work 5 days out of 7 (in your life). On those days, you probably spend a fair bit over half your waking hours toiling. Why do people work so much?</p>
+
+<p>In New Zealand, a large part of the reason people work is because they have to in order to afford basic comforts. Things like food, electricity, shelter, internet and transport.</p>
+
+<p>Change is brewing though, and the active agent is technology. As tech improves, it’s becoming more and more viable to automate simple jobs, decreasing or eliminating the
+human element involved.</p>
+
+<p>In my lifetime, many employees will be replaced by robots. Things like driving taxis, working fields, and many others can and will be automated. As a result, there will be less and less jobs available, especially labour and entry level positions. For many people, this is bad news, as it will become harder to afford their basic needs.</p>
+
+<p>So what’s the good news? This is only a problem with the system as it currently exists.</p>
+
+<p>We currently live in a society that is subject to scarcity. At the moment, in order to produce enough resources to support both the people of the country and the economy, the majority of people have to work. This is scarcity.</p>
+
+<p>In a post scarcity society, we would have a surplus of resources. Enough to go around, without everyone having to work. If robots produce enough food for all of us to eat, why would humans need to do it?</p>
+
+<p>But what about the people who have been replaced by robots? How will they survive?</p>
+
+<p>I would suggest a system like a universal basic income, where the state would provide enough money to cover the basic necessities of life to everyone, regardless of employment status.</p>
+
+<p>At the point, I’m often asked what would prevent someone from simply sitting around and doing nothing all day.</p>
+
+<p>While it would be viable to spend your time sitting around, I would be very surprised if many people would.</p>
+
+<p>I feel most people would still work at least a little, to supplement the costs of what they want to do in life.</p>
+
+<p>I can also imagine people pursuing education, science and the arts with a new relish.</p>
+
+<p>Ask yourself this question. What would you do, if you didn’t have to work in order to live?</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -556,105 +702,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/dev-academy-week-2-electric-boogaloo/">Dev Academy - Week 2: Electric Boogaloo</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-27T00:05:29+12:00" pubdate data-updated="true">May 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Another week has passed, just like that. It&rsquo;s Monday night, and after a few days of procrastinating I&rsquo;m tackling my blog post for the week.</p>
-
-<p>I spent the early nights of last week hard at work on my latest side project, NZ Skate Search. I got sick of having to check 4 or 5 different skate shops to see if they had the gear I was after. So I made a website (<a href="http://www.nzskatesearch.com">nzskatesearch.com</a>) that lets you search all of the shops that support the scene from one place. I got some good feedback from the skate community, so that made me happy. I started working on the website on Sunday night, and finished it and released it on Wednesday. It&rsquo;s not the nicest code I&rsquo;ve ever written, but it definitely works.</p>
-
-<p>If you&rsquo;d like, you can check out the <a href="https://github.com/Widdershin/nzskate-search">source code on Github</a>. Code review and feedback is always appreciated.</p>
-
-<p>At Dev Academy, we spent Monday and Tuesday diving deeper into OO, then into the MVC pattern (for those uninitiated, <a href="http://en.wikipedia.org/wiki/Model_view_controller">Model View Controller</a> is a common structure for building websites). Some of my fellow boots struggled with this at first, but it was cool to see them thoroughly grasp the concepts after such a short intro. It&rsquo;s always cool when you get to see the rays of light shine through, or the &lsquo;Aha!&rsquo; moment as Dev Academy folk say.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/dev-academy-week-2-electric-boogaloo/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/dev-academy-end-of-week-1/">Dev Academy - End of Week 1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-17T21:33:52+12:00" pubdate data-updated="true">May 17<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>If you haven&rsquo;t already, it might be worth checking out my <a href="http://widdersh.in/dev-academy-week-1/">first post about Dev Academy</a></em></p>
-
-<p>Well, it&rsquo;s the end of my first week at Enspiral Dev Academy. It&rsquo;s been a huge week, both in time and what we&rsquo;ve been doing.</p>
-
-<p><img src="http://i.imgur.com/vg0m636.jpg" alt="One of our fearless leaders, Rohan Wakefield" />
-<em>One of our fearless leaders, Rohan Wakefield</em></p>
-
-<p>To give you a better idea of what the EDA experience is like, I&rsquo;ll run you through what a typical day at EDA has been like so far.</p>
-
-<p>8.45am: Arrive and check in with my accountability group. This sounds a lot scarier then it actually is. Your accountability group is basically 2-3 other people who you check in with daily to see how you&rsquo;re all going (and to make sure you&rsquo;re all there).</p>
-
-<p>9am: We all head into the lecture room and start the day with some notices, then get stuck in with an Engineering Empathy session. So far we&rsquo;ve mostly been doing looping sessions, which are a really interesting exercise. Everybody pairs up, and is given a question like &ldquo;What is a time you were discriminated against and how did that make you feel?&rdquo;. You then talk to your partner about that for two minutes, while they listen intently. Once the two minutes is up, your partner then repeats back what they heard and what they think you were saying. Then you swap roles and repeat the process.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/dev-academy-end-of-week-1/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/"><i class="fa fa-chevron-circle-left fa-2x icon-color"></i></a>
@@ -666,7 +713,7 @@
     </div>
   </div>
   <!-- <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Nick Johnstone -
+  Copyright &copy; 2015 - Nick Johnstone -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
@@ -706,6 +753,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/all-hail-our-new-robotic-overlords-my-vision-for-new-zealand/">All Hail Our New Robotic Overlords</a>
+      </li>
+    
+      <li class="post">
         <a href="/the-random-number-gods/">The Random Number Gods</a>
       </li>
     
@@ -715,14 +770,6 @@
     
       <li class="post">
         <a href="/failing-to-forget/">Failing to Forget</a>
-      </li>
-    
-      <li class="post">
-        <a href="/hills-of-all-sorts/">Hills of All Sorts</a>
-      </li>
-    
-      <li class="post">
-        <a href="/on-being-down/">On Being Down</a>
       </li>
     
   </ul>
