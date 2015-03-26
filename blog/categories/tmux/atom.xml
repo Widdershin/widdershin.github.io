@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tmux | Nick Johnstone's Blog]]></title>
+  <link href="http://widdersh.in/blog/categories/tmux/atom.xml" rel="self"/>
+  <link href="http://widdersh.in/"/>
+  <updated>2015-03-26T22:55:04+13:00</updated>
+  <id>http://widdersh.in/</id>
+  <author>
+    <name><![CDATA[Nick Johnstone]]></name>
+    <email><![CDATA[ncwjohnstone@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Auto Updating Git Status With Tmux and Watch]]></title>
+    <link href="http://widdersh.in/auto-updating-git-status-with-tmux-and-watch/"/>
+    <updated>2015-03-26T22:37:10+13:00</updated>
+    <id>http://widdersh.in/auto-updating-git-status-with-tmux-and-watch</id>
+    <content type="html"><![CDATA[<iframe class="center" src="http://gfycat.com/ifr/HideousPoliteCivet" frameborder="0" scrolling="no" width="562" height="472" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+
+
+<p>One of the great things about tmux is that you can create flexible development layouts.</p>
+
+<p>You can easily display the output of a command and auto update it using <code>watch</code>. It has a similar end user experience as <code>tail -f</code>, except for commands instead of files. For example:</p>
+
+<p><code>$ watch git status</code></p>
+
+<p><code>watch</code> will run <code>git status</code> every 2 seconds and display the output.</p>
+
+<p>If you want color in your <code>git status</code>, you&rsquo;ll need to configure git to display color when being run by <code>watch</code>.</p>
+
+<p><code>$ git config --global color.status always</code>
+<code>$ watch --color git status</code></p>
+]]></content>
+  </entry>
+  
+</feed>

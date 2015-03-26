@@ -9,7 +9,7 @@
   <meta name="author" content="Nick Johnstone">
 
   
-  <meta name="description" content="Last week I discovered Sonic Pi. I watched Repl Electric perform live at RubyConf AU. He gave a brief demo of Sonic Pi, a tool for progamming live &hellip;">
+  <meta name="description" content="One of the great things about tmux is that you can create flexible development layouts. You can easily display the output of a command and auto &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -160,6 +160,56 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/auto-updating-git-status-with-tmux-and-watch/">Auto Updating Git Status With Tmux and Watch</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-26T22:37:10+13:00" pubdate data-updated="true">Mar 26<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><iframe class="center" src="http://gfycat.com/ifr/HideousPoliteCivet" frameborder="0" scrolling="no" width="562" height="472" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+
+
+<p>One of the great things about tmux is that you can create flexible development layouts.</p>
+
+<p>You can easily display the output of a command and auto update it using <code>watch</code>. It has a similar end user experience as <code>tail -f</code>, except for commands instead of files. For example:</p>
+
+<p><code>$ watch git status</code></p>
+
+<p><code>watch</code> will run <code>git status</code> every 2 seconds and display the output.</p>
+
+<p>If you want color in your <code>git status</code>, you&rsquo;ll need to configure git to display color when being run by <code>watch</code>.</p>
+
+<p><code>$ git config --global color.status always</code>
+<code>$ watch --color git status</code></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -639,53 +689,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/dev-academy-week-2-electric-boogaloo/">Dev Academy - Week 2: Electric Boogaloo</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-27T00:05:29+12:00" pubdate data-updated="true">May 27<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Another week has passed, just like that. It&rsquo;s Monday night, and after a few days of procrastinating I&rsquo;m tackling my blog post for the week.</p>
-
-<p>I spent the early nights of last week hard at work on my latest side project, NZ Skate Search. I got sick of having to check 4 or 5 different skate shops to see if they had the gear I was after. So I made a website (<a href="http://www.nzskatesearch.com">nzskatesearch.com</a>) that lets you search all of the shops that support the scene from one place. I got some good feedback from the skate community, so that made me happy. I started working on the website on Sunday night, and finished it and released it on Wednesday. It&rsquo;s not the nicest code I&rsquo;ve ever written, but it definitely works.</p>
-
-<p>If you&rsquo;d like, you can check out the <a href="https://github.com/Widdershin/nzskate-search">source code on Github</a>. Code review and feedback is always appreciated.</p>
-
-<p>At Dev Academy, we spent Monday and Tuesday diving deeper into OO, then into the MVC pattern (for those uninitiated, <a href="http://en.wikipedia.org/wiki/Model_view_controller">Model View Controller</a> is a common structure for building websites). Some of my fellow boots struggled with this at first, but it was cool to see them thoroughly grasp the concepts after such a short intro. It&rsquo;s always cool when you get to see the rays of light shine through, or the &lsquo;Aha!&rsquo; moment as Dev Academy folk say.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/dev-academy-week-2-electric-boogaloo/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/"><i class="fa fa-chevron-circle-left fa-2x icon-color"></i></a>
@@ -698,6 +701,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/auto-updating-git-status-with-tmux-and-watch/">Auto Updating Git Status With Tmux and Watch</a>
+      </li>
     
       <li class="post">
         <a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a>
@@ -713,10 +720,6 @@
     
       <li class="post">
         <a href="/failing-to-forget/">Failing to Forget</a>
-      </li>
-    
-      <li class="post">
-        <a href="/hills-of-all-sorts/">Hills of All Sorts</a>
       </li>
     
   </ul>
@@ -810,6 +813,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/auto-updating-git-status-with-tmux-and-watch/">Auto Updating Git Status With Tmux and Watch</a>
+      </li>
+    
+      <li class="post">
         <a href="/controlling-sonic-pi-from-vim-or-anywhere-else/">Controlling Sonic Pi From Vim (or Anywhere Else)</a>
       </li>
     
@@ -823,10 +830,6 @@
     
       <li class="post">
         <a href="/failing-to-forget/">Failing to Forget</a>
-      </li>
-    
-      <li class="post">
-        <a href="/hills-of-all-sorts/">Hills of All Sorts</a>
       </li>
     
   </ul>
