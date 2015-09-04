@@ -99,3 +99,6 @@ google_analytics_tracking_id: UA-43132161-4
 
 # Facebook Like
 facebook_like: false
+
+gems:
+  - jekyll-redirect-from
