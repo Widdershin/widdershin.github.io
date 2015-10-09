@@ -4,7 +4,7 @@
   <title><![CDATA[Nick Johnstone's Blog]]></title>
   <link href="http://widdersh.in/atom.xml" rel="self"/>
   <link href="http://widdersh.in/"/>
-  <updated>2015-09-05T11:24:29+12:00</updated>
+  <updated>2015-10-09T18:00:42+13:00</updated>
   <id>http://widdersh.in/</id>
   <author>
     <name><![CDATA[Nick Johnstone]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Go With Your Gut]]></title>
+    <link href="http://widdersh.in/go-with-your-gut/"/>
+    <updated>2015-10-09T17:57:53+13:00</updated>
+    <id>http://widdersh.in/go-with-your-gut</id>
+    <content type="html"><![CDATA[<p>All too often when I&rsquo;m programming I find myself looking at a problem and feeling like I have no clue how to even begin.</p>
+
+<p>In amongst the murky swamp of stress and self doubt there is a little spark of intuition. It&rsquo;s small, and fragile, but all I have to do is blow on it, feed it the fuel it needs to burn. Sometimes my intuition turns out to be wrong. But more often than not that fire shows me the light.</p>
+
+<p>And you know what? I can&rsquo;t ever remember regretting having followed my intuition.</p>
+
+<p>What haunts me is when I find that little spark and then ignore it. There&rsquo;s nothing more sickening than spending hours battling with a problem only to realize I knew the answer all along, if only I had trusted myself.</p>
+
+<p>Now, when I come to a fork in the road. I try not to fret and fray and become paralyzed by choice. I strike out along a path and see what happens. At least that way I&rsquo;m going somewhere.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Auto Updating Git Status With Tmux and Watch]]></title>
